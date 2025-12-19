@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/yaml-cpp-subbuild/CMakeFiles/yaml-cpp-populate"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/yaml-cpp-subbuild/CMakeFiles/yaml-cpp-populate.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/yaml-cpp-subbuild/CMakeFiles/yaml-cpp-populate-complete.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-build.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-configure.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-download.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-install.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-mkdir.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-patch.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-test.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"yaml-cpp-populate"
+		],
+		"name" : "yaml-cpp-populate"
+	}
+}

@@ -1,9 +1,28 @@
-[comment]: <> (Todo: Make Light Mode Image)
-[comment]: <> (Todo: Make Dark Mode Image)
+# Starship - Android Port
 
-# Starship
+This is an Android port of Starship, a PC port of Star Fox 64.
+Some of the original readme from the PC version is below.
 
-Lead Developers: 
+Story Time
+
+I love that the [HarbourMasters Ship of Harkinian](https://github.com/HarbourMasters) projects, but they are inconsistent with their platform releases, some get Switch releases, some get Android releases, some get one, or neither. Starship doesn't have an Android release, so I decided to tackle porting it myself, using the [Waterdish](https://github.com/Waterdish) Android ports as a sort of guide. Only partway through this project, I learned about the [izzy2lost Android port](https://github.com/izzy2lost/Starship), which is much more optimized than mine, but I wanted to finish the project anyway. So, if you want to actually play the game from start to finish, I think their build is a better experience. But I did what I set out to do, and if someone wants to download this APK 
+
+## Running on Android
+
+1. **Download or build the APK** - Get the latest APK from releases or build it yourself
+2. **Install the APK** on your Android device
+3. **Generate O2R files** - You'll need to provide your own Star Fox 64 ROM (US 1.0 or 1.1) to generate the required `starship.o2r` asset file
+4. **Run the app** - On first launch, the app will guide you through setup
+
+This is built for android consoles, the touch screen controls were crashing the app, so I disabled them. If you need them, use the [izzy2lost Android port](https://github.com/izzy2lost/Starship).
+
+For detailed build instructions, see [ANDROID_BUILD.md](ANDROID_BUILD.md)
+
+For the original PC version, visit the [upstream repository](https://github.com/HarbourMasters/Starship)
+
+---
+
+Lead Developers:
 * [SonicDcer](https://www.github.com/sonicdcer)
 * [Lywx](https://www.github.com/kiritodv)
 
@@ -45,9 +64,6 @@ Your ROM needs to be in .z64 format. If it's in .n64 format, use the following t
 * Extract every file from the zip into a folder of your choosing.
 * Run starship and select your US 1.0 or US 1.1 ROM.
 
-#### Nintendo Switch
-* Run one of the PC releases to generate an `sf64.o2r` file. After launching the game on PC, you will be able to find these files in the same directory as `starship.exe` or `starship.appimage`.
-* Copy the files to your sd card
 
 # Configuration
 
@@ -64,28 +80,11 @@ Your ROM needs to be in .z64 format. If it's in .n64 format, use the following t
 | F11 | Fullscreen |
 | Tab | Toggle Alternate assets |
 
-### Graphics Backends
-Currently, there are three rendering APIs supported: DirectX11 (Windows), OpenGL (all platforms), and Metal (macOS). You can change which API to use in the `Settings` menu of the menubar, which requires a restart.  If you're having an issue with crashing, you can change the API in the `starship.cfg.json` file by finding the line `"Backend":{`... and changing the `id` value to `3` and set the `Name` to `OpenGL`. `DirectX 11` with id `2` is the default on Windows. `Metal` with id `4` is the default on macOS.
-
-# Custom Assets
-Custom assets are packed in `.o2r` or `.otr` files. To use custom assets, place them in the `mods` folder.
-
-If you're interested in creating and/or packing your own custom asset `.o2r`/`.otr` files, check out the following tools:
-* [**retro - OTR and O2R generator**](https://github.com/HarbourMasters64/retro)
-* [**fast64 - Blender plugin (Note that SF64 is not supported at this time)**](https://github.com/HarbourMasters/fast64)
-
 # Development
-### Building
 
-If you want to manually compile Starship, please consult the [building instructions](https://github.com/HarbourMasters/Starship/blob/main/docs/BUILDING.md).
+For Android build instructions, see [ANDROID_BUILD.md](ANDROID_BUILD.md).
 
-### Playtesting
-If you want to playtest a continuous integration build, you can find them at the links below. Keep in mind that these are for playtesting only, and you will likely encounter bugs and possibly crashes. 
-
-* [Windows](https://nightly.link/HarbourMasters/Starship/workflows/main/main/starship-windows.zip)
-* [macOS](https://nightly.link/HarbourMasters/Starship/workflows/main/main/starship-mac-x64.zip)
-* [Linux](https://nightly.link/HarbourMasters/Starship/workflows/main/main/Starship-linux.zip)
-* [Switch](https://nightly.link/HarbourMasters/Starship/workflows/main/main/Starship-switch.zip)
+For PC build instructions, please consult the [upstream repository](https://github.com/HarbourMasters/Starship).
 
 <a href="https://github.com/Kenix3/libultraship/">
   <picture>
@@ -111,3 +110,5 @@ If you want to playtest a continuous integration build, you can find them at the
 * [Thar0](https://github.com/Thar0) : for contributing with an improved Starfield that can be interpolated to any framerate.
 * [TheBoy181](https://github.com/TheBoy181) : for contributing to this project with various widescreen enhancements such as level floors, an extended Starfield among other things.
 * [Wiseguy](https://github.com/Mr-Wiseguy) : for providing important information about the inner workings of the N64 platform, as well as helping with the decompilation process.
+
+* [Waterdish](https://github.com/Waterdish) : for porting other games to Android

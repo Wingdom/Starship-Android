@@ -1,0 +1,118 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 361,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 475,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 489,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 490,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 493,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-build/libzip.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/libzip/modules",
+			"paths" : 
+			[
+				"Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-src/cmake/FindNettle.cmake",
+				"Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-src/cmake/Findzstd.cmake",
+				"Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-src/cmake/FindMbedTLS.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-build/zipconf.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/libzip",
+			"paths" : 
+			[
+				"Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-build/libzip-config.cmake",
+				"Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-build/libzip-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/libzip",
+			"exportName" : "libzip-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "zip::@d48f2cafc5c71de6ba37",
+					"index" : 21
+				}
+			],
+			"paths" : 
+			[
+				"_deps/libzip-build/CMakeFiles/Export/ab63c3a9eda5ec24a2943b813039874c/libzip-targets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/libzip-build",
+		"source" : "Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-src"
+	}
+}

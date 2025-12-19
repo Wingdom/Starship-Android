@@ -1,0 +1,74 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"Dist"
+		],
+		"files" : 
+		[
+			"Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/libzip-src/cmake/Dist.cmake",
+			"Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/libzip-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 77,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 1
+			}
+		]
+	},
+	"id" : "dist::@10040c7b4328ec4c6bd9",
+	"name" : "dist",
+	"paths" : 
+	{
+		"build" : "_deps/libzip-build",
+		"source" : "Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/libzip-src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/libzip-build/CMakeFiles/dist",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/libzip-build/CMakeFiles/dist.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

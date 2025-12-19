@@ -1,0 +1,14 @@
+# Target labels
+ yaml-cpp-populate
+# Source files and their labels
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/yaml-cpp-subbuild/CMakeFiles/yaml-cpp-populate
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/yaml-cpp-subbuild/CMakeFiles/yaml-cpp-populate.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/yaml-cpp-subbuild/CMakeFiles/yaml-cpp-populate-complete.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-build.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-configure.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-download.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-install.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-mkdir.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-patch.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-test.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/yaml-cpp-subbuild/yaml-cpp-populate-prefix/src/yaml-cpp-populate-stamp/yaml-cpp-populate-update.rule

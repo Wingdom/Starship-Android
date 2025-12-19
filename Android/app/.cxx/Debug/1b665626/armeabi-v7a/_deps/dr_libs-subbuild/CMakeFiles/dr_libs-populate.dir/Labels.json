@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/dr_libs-subbuild/CMakeFiles/dr_libs-populate"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/dr_libs-subbuild/CMakeFiles/dr_libs-populate.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/dr_libs-subbuild/CMakeFiles/dr_libs-populate-complete.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/dr_libs-subbuild/dr_libs-populate-prefix/src/dr_libs-populate-stamp/dr_libs-populate-build.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/dr_libs-subbuild/dr_libs-populate-prefix/src/dr_libs-populate-stamp/dr_libs-populate-configure.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/dr_libs-subbuild/dr_libs-populate-prefix/src/dr_libs-populate-stamp/dr_libs-populate-download.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/dr_libs-subbuild/dr_libs-populate-prefix/src/dr_libs-populate-stamp/dr_libs-populate-install.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/dr_libs-subbuild/dr_libs-populate-prefix/src/dr_libs-populate-stamp/dr_libs-populate-mkdir.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/dr_libs-subbuild/dr_libs-populate-prefix/src/dr_libs-populate-stamp/dr_libs-populate-patch.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/dr_libs-subbuild/dr_libs-populate-prefix/src/dr_libs-populate-stamp/dr_libs-populate-test.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/dr_libs-subbuild/dr_libs-populate-prefix/src/dr_libs-populate-stamp/dr_libs-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"dr_libs-populate"
+		],
+		"name" : "dr_libs-populate"
+	}
+}

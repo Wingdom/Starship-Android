@@ -1,0 +1,6 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The update step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+command=/var/home/wingdom/Android/cmake/3.31.5/bin/cmake;-Dpatch_file=/var/home/wingdom/workspace/starship-android/Starship/libultraship/cmake/dependencies/patches/imgui-fixes-and-config.patch;-Dwith_reset=TRUE;-P;/var/home/wingdom/workspace/starship-android/Starship/libultraship/cmake/dependencies/git-patch.cmake
+work_dir=/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/imgui-src

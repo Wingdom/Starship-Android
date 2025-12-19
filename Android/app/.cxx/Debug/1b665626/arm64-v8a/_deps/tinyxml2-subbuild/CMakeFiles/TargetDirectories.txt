@@ -1,0 +1,3 @@
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/tinyxml2-subbuild/CMakeFiles/tinyxml2-populate.dir
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/tinyxml2-subbuild/CMakeFiles/edit_cache.dir
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/tinyxml2-subbuild/CMakeFiles/rebuild_cache.dir

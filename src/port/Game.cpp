@@ -29,7 +29,7 @@ void push_frame() {
     GameEngine::EndAudioFrame();
 }
 
-#ifdef _WIN32
+#if defined(_WIN32) || defined(__ANDROID__)
 int SDL_main(int argc, char **argv) {
 #else
 #if defined(__cplusplus) && defined(PLATFORM_IOS)

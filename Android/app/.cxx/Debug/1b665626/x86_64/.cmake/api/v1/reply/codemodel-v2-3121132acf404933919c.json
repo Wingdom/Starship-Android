@@ -1,0 +1,584 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "_deps/yaml-cpp-build",
+					"jsonFile" : "directory-_deps.yaml-cpp-build-Debug-1e6e8ac1200183667854.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						10,
+						11,
+						13
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libultraship-Debug-90553d012a9e386c031d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "libultraship",
+					"targetIndexes" : 
+					[
+						0,
+						13
+					]
+				},
+				{
+					"build" : "_deps/prism-build",
+					"jsonFile" : "directory-_deps.prism-build-Debug-d51076c74f2dbcf3d875.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/prism-src",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "_deps/sdl2-build",
+					"jsonFile" : "directory-_deps.sdl2-build-Debug-2af3c2c0cd4f50224138.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 4,
+					"source" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-src",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						11,
+						15
+					]
+				},
+				{
+					"build" : "_deps/nlohmann_json-build",
+					"jsonFile" : "directory-_deps.nlohmann_json-build-Debug-03b1146ab9f991cebe8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 5,
+					"source" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/nlohmann_json-src"
+				},
+				{
+					"build" : "_deps/tinyxml2-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.tinyxml2-build-Debug-e109badfcc01d400a4ec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 6,
+					"source" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/tinyxml2-src",
+					"targetIndexes" : 
+					[
+						14,
+						19
+					]
+				},
+				{
+					"build" : "_deps/spdlog-build",
+					"jsonFile" : "directory-_deps.spdlog-build-Debug-eb7cb64fa55b79f85018.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 7,
+					"source" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/spdlog-src",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "_deps/libzip-build",
+					"childIndexes" : 
+					[
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.libzip-build-Debug-d12b8068af4b42a40034.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 8,
+					"source" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/libzip-src",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				},
+				{
+					"build" : "_deps/libzip-build/lib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.libzip-build.lib-Debug-fc00f55eb4e1a537cf06.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.0"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 8,
+					"source" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/libzip-src/lib",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "_deps/ogg-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.ogg-build-Debug-5655195a5fe5052b50bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 9,
+					"source" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/ogg-src",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "_deps/vorbis-build",
+					"childIndexes" : 
+					[
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.vorbis-build-Debug-f51b2c27f9dd22aceb26.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 10,
+					"source" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/vorbis-src"
+				},
+				{
+					"build" : "_deps/vorbis-build/lib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.vorbis-build.lib-Debug-f558306237567e78180d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 10,
+					"source" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/vorbis-src/lib",
+					"targetIndexes" : 
+					[
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src",
+					"jsonFile" : "directory-libultraship.src-Debug-6acd5e0b007a3e3bf0c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24.0"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "libultraship/src",
+					"targetIndexes" : 
+					[
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Starship",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "YAML_CPP",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						13
+					],
+					"name" : "libultraship",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						8,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "prism",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "SDL2",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						11,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "nlohmann_json",
+					"parentIndex" : 2
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "tinyxml2",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						14,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "spdlog",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8,
+						9
+					],
+					"name" : "libzip",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "libogg",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11,
+						12
+					],
+					"name" : "vorbis",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "ImGui::@be23ca73ed2ae773184a",
+					"jsonFile" : "target-ImGui-Debug-6f2139e83c43c7c8baf0.json",
+					"name" : "ImGui",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "SDL2::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2-Debug-2d1b87dfa0cd38721614.json",
+					"name" : "SDL2",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "SDL2-static::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2-static-Debug-4f437ac7bd54956e988d.json",
+					"name" : "SDL2-static",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "SDL2_test::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2_test-Debug-a368ed3539bb981a0987.json",
+					"name" : "SDL2_test",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "SDL2main::@45bd952f1071c035638d",
+					"jsonFile" : "target-SDL2main-Debug-69e0a78bb27b709541ac.json",
+					"name" : "SDL2main",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Starship::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Starship-Debug-195b662f1a24aa6bd122.json",
+					"name" : "Starship",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "dist::@10040c7b4328ec4c6bd9",
+					"jsonFile" : "target-dist-Debug-08ab3c5c0339efd38e4d.json",
+					"name" : "dist",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "distcheck::@10040c7b4328ec4c6bd9",
+					"jsonFile" : "target-distcheck-Debug-0aa3e06dff55979ab3f9.json",
+					"name" : "distcheck",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "libultraship::@855da6e7a889717685c0",
+					"jsonFile" : "target-libultraship-Debug-d9ec107ef4a27e6b2ab0.json",
+					"name" : "libultraship",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ogg::@4e5ed7d02827854e35f8",
+					"jsonFile" : "target-ogg-Debug-5c6042d143776fd775d5.json",
+					"name" : "ogg",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "prism::@5d95b222cf25808877ff",
+					"jsonFile" : "target-prism-Debug-4320fd36dc22fb834484.json",
+					"name" : "prism",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "sdl_headers_copy::@45bd952f1071c035638d",
+					"jsonFile" : "target-sdl_headers_copy-Debug-60da220455aceb880186.json",
+					"name" : "sdl_headers_copy",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "spdlog::@eb35cfce7893ccfeff1e",
+					"jsonFile" : "target-spdlog-Debug-114d7ef414ccb99e634c.json",
+					"name" : "spdlog",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "stb::@be23ca73ed2ae773184a",
+					"jsonFile" : "target-stb-Debug-777fc90fe03cb7ed0eb7.json",
+					"name" : "stb",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "tinyxml2::@bafd953fc568ffa9a669",
+					"jsonFile" : "target-tinyxml2-Debug-00eea80185b93abf9b4d.json",
+					"name" : "tinyxml2",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "uninstall::@45bd952f1071c035638d",
+					"jsonFile" : "target-uninstall-Debug-813a3e2c3e0ad8aaff86.json",
+					"name" : "uninstall",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "vorbis::@692b0ee2b61df6760d20",
+					"jsonFile" : "target-vorbis-Debug-c7fcbb60e975008f9364.json",
+					"name" : "vorbis",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "vorbisenc::@692b0ee2b61df6760d20",
+					"jsonFile" : "target-vorbisenc-Debug-452ecaf01713fdbc4209.json",
+					"name" : "vorbisenc",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "vorbisfile::@692b0ee2b61df6760d20",
+					"jsonFile" : "target-vorbisfile-Debug-5aa4b1affb784271961d.json",
+					"name" : "vorbisfile",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "xmltest::@bafd953fc568ffa9a669",
+					"jsonFile" : "target-xmltest-Debug-d80706178dc65274f7d3.json",
+					"name" : "xmltest",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "yaml-cpp::@c1fb6b535d5396bcd0b2",
+					"jsonFile" : "target-yaml-cpp-Debug-7afc927441161c7b5d59.json",
+					"name" : "yaml-cpp",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "zip::@d48f2cafc5c71de6ba37",
+					"jsonFile" : "target-zip-Debug-92bcbda010718e2c5afd.json",
+					"name" : "zip",
+					"projectIndex" : 8
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64",
+		"source" : "/var/home/wingdom/workspace/starship-android/Starship"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

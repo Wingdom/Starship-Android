@@ -83,7 +83,7 @@ endif()
 ################################################################################
 # Global configuration types
 ################################################################################
-if (CMAKE_SYSTEM_NAME STREQUAL "NintendoSwitch")
+if (CMAKE_SYSTEM_NAME STREQUAL "NintendoSwitch" OR CMAKE_SYSTEM_NAME STREQUAL "Android")
 set(CMAKE_C_FLAGS_DEBUG "-g -ffast-math -DDEBUG")
 set(CMAKE_CXX_FLAGS_DEBUG "-g -ffast-math -DDEBUG")
 set(CMAKE_C_FLAGS_RELEASE "-O3 -ffast-math -DNDEBUG")
@@ -114,7 +114,7 @@ add_compile_definitions(
 )
 
 # Find necessary libraries
-if (UNIX AND NOT APPLE)
+if (UNIX AND NOT APPLE AND NOT CMAKE_SYSTEM_NAME STREQUAL "Android")
 find_package(OpenGL REQUIRED)
 endif()
 
@@ -126,6 +126,19 @@ include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/include
     ${CMAKE_CURRENT_SOURCE_DIR}/src
 )
+
+# Fetch yaml-cpp early for Android builds (needed for Torch headers)
+if(CMAKE_SYSTEM_NAME STREQUAL "Android")
+  include(FetchContent)
+  FetchContent_Declare(
+      yaml-cpp
+      GIT_REPOSITORY https://github.com/jbeder/yaml-cpp.git
+      GIT_TAG 2f86d13775d119edbb69af52e5f566fd65c6953b
+  )
+  set(YAML_CPP_BUILD_TESTS OFF CACHE BOOL "" FORCE)
+  set(YAML_CPP_BUILD_TOOLS OFF CACHE BOOL "" FORCE)
+  FetchContent_MakeAvailable(yaml-cpp)
+endif()
 
 # Collect source files to build the executable
 file(GLOB_RECURSE ALL_FILES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR}
@@ -165,6 +178,11 @@ list(FILTER ALL_FILES EXCLUDE REGEX "src/sys/sys_timer.c")
 list(FILTER ALL_FILES EXCLUDE REGEX "src/sys/sys_fault.c")
 list(FILTER ALL_FILES EXCLUDE REGEX "src/mods/object_ram.c")
 
+# Exclude GameExtractor on Android (Torch is only needed for PC asset extraction)
+if(CMAKE_SYSTEM_NAME STREQUAL "Android")
+    list(FILTER ALL_FILES EXCLUDE REGEX "src/port/extractor/GameExtractor.cpp")
+endif()
+
 if (CMAKE_SYSTEM_NAME STREQUAL "iOS")
     set(IOS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/libultraship/ios)
 
@@ -183,6 +201,9 @@ if (CMAKE_SYSTEM_NAME STREQUAL "iOS")
         MACOSX_BUNDLE_INFO_PLIST ${IOS_DIR}/plist.in
         RESOURCE "${IMAGE_FILES};${STORYBOARD_FILE};${ICON_FILES}"
     )
+elseif(CMAKE_SYSTEM_NAME STREQUAL "Android")
+    # Android builds as a shared library (loaded by SDL2's Android activity)
+    add_library(${PROJECT_NAME} SHARED ${ALL_FILES})
 else()
     add_executable(${PROJECT_NAME} ${ALL_FILES})
 endif()
@@ -262,6 +283,9 @@ include_directories(
   ${CMAKE_CURRENT_SOURCE_DIR}/libultraship/extern/tinyxml2
   ${CMAKE_CURRENT_SOURCE_DIR}/libultraship/libultraship/Lib/
   ${CMAKE_CURRENT_SOURCE_DIR}/libultraship/libultraship/Lib/libjpeg/include/
+  ${CMAKE_CURRENT_SOURCE_DIR}/tools/Torch/src
+  ${CMAKE_CURRENT_SOURCE_DIR}/tools/Torch
+  ${CMAKE_CURRENT_SOURCE_DIR}/tools/Torch/lib
   ${CMAKE_CURRENT_SOURCE_DIR}/libultraship/libultraship/Lib/spdlog/include/
   ${CMAKE_CURRENT_SOURCE_DIR}/libultraship/src/graphic/Fast3D/U64/PR
   ${CMAKE_CURRENT_SOURCE_DIR}/libultraship/src/graphic
@@ -273,6 +297,17 @@ include_directories(
 add_subdirectory(libultraship ${CMAKE_CURRENT_SOURCE_DIR}/libultraship)
 add_dependencies(${PROJECT_NAME} libultraship)
 target_link_libraries(${PROJECT_NAME} PRIVATE libultraship)
+
+# Add Android-specific includes for yaml-cpp and libzip
+if(CMAKE_SYSTEM_NAME STREQUAL "Android")
+  # yaml-cpp was fetched earlier at the top
+  # libzip is fetched by libultraship, variables should be available
+  target_include_directories(${PROJECT_NAME} PRIVATE
+    ${yaml-cpp_SOURCE_DIR}/include
+    ${libzip_SOURCE_DIR}/lib
+    ${libzip_BINARY_DIR}
+  )
+endif()
 
 if (CMAKE_SYSTEM_NAME STREQUAL "Windows")
     target_compile_definitions(${PROJECT_NAME} PRIVATE
@@ -355,6 +390,15 @@ elseif(CMAKE_SYSTEM_NAME STREQUAL "CafeOS")
     target_include_directories(${PROJECT_NAME} PRIVATE
         ${DEVKITPRO}/portlibs/wiiu/include/
     )
+elseif(CMAKE_SYSTEM_NAME STREQUAL "Android")
+    # For Android, Ogg and Vorbis are fetched via FetchContent
+	set(ADDITIONAL_LIBRARY_DEPENDENCIES
+        "$<$<BOOL:${USE_NETWORKING}>:SDL2_net::SDL2_net>"
+        "ogg"
+        "vorbis"
+        "vorbisenc"
+        "vorbisfile"
+	)
 else()
     find_package(Ogg REQUIRED)
     find_package(Vorbis REQUIRED)
@@ -383,8 +427,14 @@ option(BUILD_STORMLIB "Build with StormLib support" OFF)
 option(BUILD_SM64 "Build with Super Mario 64 support" OFF)
 option(BUILD_MK64 "Build with Mario Kart 64 support" OFF)
 option(BUILD_FZERO "Build with F-Zero X support" OFF)
-add_subdirectory(tools/Torch)
-target_link_libraries(${PROJECT_NAME} PRIVATE torch "${ADDITIONAL_LIBRARY_DEPENDENCIES}")
+
+# Torch is only needed for PC builds (asset extraction), not for Android
+if(NOT CMAKE_SYSTEM_NAME STREQUAL "Android")
+    add_subdirectory(tools/Torch)
+    target_link_libraries(${PROJECT_NAME} PRIVATE torch "${ADDITIONAL_LIBRARY_DEPENDENCIES}")
+else()
+    target_link_libraries(${PROJECT_NAME} PRIVATE "${ADDITIONAL_LIBRARY_DEPENDENCIES}")
+endif()
 
 if(CMAKE_SYSTEM_NAME MATCHES "NintendoSwitch")
 
@@ -563,10 +613,16 @@ if (CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang|AppleClang")
           >
       )
   else()
-      if(CMAKE_SYSTEM_PROCESSOR MATCHES "x86_64")
-        set(CPU_OPTION -msse2 -mfpmath=sse)
-      elseif(CMAKE_SYSTEM_PROCESSOR MATCHES "aarch64")
-        set(CPU_OPTION -mcpu=native)
+      # Set CPU-specific options, but not for Android (cross-compilation)
+      if(NOT CMAKE_SYSTEM_NAME STREQUAL "Android")
+          if(CMAKE_SYSTEM_PROCESSOR MATCHES "x86_64")
+            set(CPU_OPTION -msse2 -mfpmath=sse)
+          elseif(CMAKE_SYSTEM_PROCESSOR MATCHES "aarch64")
+            set(CPU_OPTION -mcpu=native)
+          endif()
+      else()
+          # For Android, don't set CPU_OPTION - let NDK defaults handle it
+          set(CPU_OPTION "")
       endif()
 
       target_compile_options(${PROJECT_NAME} PRIVATE
@@ -604,7 +660,7 @@ add_custom_command(
 	COMMAND ${CMAKE_COMMAND} -E copy_directory "${CMAKE_SOURCE_DIR}/assets/" "$<TARGET_FILE_DIR:Starship>/assets/"
 )
 
-if(NOT CMAKE_SYSTEM_NAME STREQUAL "NintendoSwitch")
+if(NOT CMAKE_SYSTEM_NAME STREQUAL "NintendoSwitch" AND NOT CMAKE_SYSTEM_NAME STREQUAL "Android")
 include(ExternalProject)
 ExternalProject_Add(TorchExternal
 	PREFIX TorchExternal
@@ -663,13 +719,15 @@ set_property(TARGET ${PROJECT_NAME} PROPERTY APPIMAGE_DESKTOP_FILE "${CMAKE_SOUR
 set_property(TARGET ${PROJECT_NAME} PROPERTY APPIMAGE_ICON_FILE "${CMAKE_SOURCE_DIR}/logo.png")
 endif()
 
-if(CMAKE_SYSTEM_NAME MATCHES "Linux")
-    set(CPACK_GENERATOR "External")
-elseif(CMAKE_SYSTEM_NAME MATCHES "Windows|NintendoSwitch|CafeOS")
-    set(CPACK_GENERATOR "ZIP")
-elseif(CMAKE_SYSTEM_NAME MATCHES "Darwin")
-    set(CPACK_GENERATOR "Bundle")
-endif()
+if(NOT CMAKE_SYSTEM_NAME STREQUAL "Android")
+    if(CMAKE_SYSTEM_NAME MATCHES "Linux")
+        set(CPACK_GENERATOR "External")
+    elseif(CMAKE_SYSTEM_NAME MATCHES "Windows|NintendoSwitch|CafeOS")
+        set(CPACK_GENERATOR "ZIP")
+    elseif(CMAKE_SYSTEM_NAME MATCHES "Darwin")
+        set(CPACK_GENERATOR "Bundle")
+    endif()
 
-set(CPACK_PROJECT_CONFIG_FILE ${CMAKE_SOURCE_DIR}/cmake/configure-packaging.cmake)
-include(cmake/packaging.cmake)
+    set(CPACK_PROJECT_CONFIG_FILE ${CMAKE_SOURCE_DIR}/cmake/configure-packaging.cmake)
+    include(cmake/packaging.cmake)
+endif()

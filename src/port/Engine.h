@@ -30,7 +30,9 @@ class GameEngine {
 
     GameEngine();
     void StartFrame() const;
+#if !defined(__ANDROID__)
     static bool GenAssetFile(bool exitOnFail = true);
+#endif
     static void Create();
     static void HandleAudioThread();
     static void StartAudioFrame();

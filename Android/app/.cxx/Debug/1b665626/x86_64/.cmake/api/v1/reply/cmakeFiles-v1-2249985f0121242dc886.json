@@ -1,0 +1,1609 @@
+{
+	"globsDependent" : 
+	[
+		{
+			"expression" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/*.cpp",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/binary.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/convert.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/depthguard.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/directives.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/emit.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/emitfromevents.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/emitter.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/emitterstate.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/emitterutils.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/exceptions.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/exp.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/fptostring.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/memory.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/node.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/node_data.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/nodebuilder.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/nodeevents.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/null.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/ostream_wrapper.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/parse.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/parser.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/regex_yaml.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/scanner.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/scanscalar.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/scantag.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/scantoken.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/simplekey.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/singledocparser.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/stream.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/tag.cpp"
+			]
+		},
+		{
+			"expression" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/contrib/*.cpp",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/contrib/graphbuilder.cpp",
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/src/contrib/graphbuilderadapter.cpp"
+			]
+		}
+	],
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/CMakeFiles/3.31.5/CMakeSystem.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/ndk/26.0.10792818/build/cmake/android.toolchain.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/ndk/26.0.10792818/build/cmake/android-legacy.toolchain.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/ndk/26.0.10792818/build/cmake/platforms.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/Android-Initialize.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/ndk/26.0.10792818/build/cmake/hooks/pre/Android-Initialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/CMakeFiles/3.31.5/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/CMakeFiles/3.31.5/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/CMakeFiles/3.31.5/CMakeASMCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/Android.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/ndk/26.0.10792818/build/cmake/hooks/pre/Android.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Compiler/Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/Android-Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/Android-Clang.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/ndk/26.0.10792818/build/cmake/hooks/pre/Android-Clang.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/ndk/26.0.10792818/build/cmake/flags.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Linker/LLD-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Linker/LLD.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/Linker/Android-LLD-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/Linker/Linux-LLD-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/Linker/Linux-LLD.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Compiler/Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/Android-Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/Android-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Linker/LLD-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Linker/LLD.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/Linker/Android-LLD-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/Linker/Linux-LLD-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/Linker/Linux-LLD.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Compiler/GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Internal/CMakeASMLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/Linker/Android-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/Linker/Android-GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Platform/Linker/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FetchContent.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake"
+		},
+		{
+			"path" : "properties.h.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FetchContent.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Internal/CheckFlagCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CTestUseLaunchers.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/yaml-cpp-config.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/yaml-cpp.pc.in"
+		},
+		{
+			"path" : "libultraship/CMakeLists.txt"
+		},
+		{
+			"path" : "libultraship/cmake/Utils.cmake"
+		},
+		{
+			"path" : "libultraship/cmake/dependencies/common.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FetchContent.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"path" : "libultraship/cmake/dependencies/android.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FetchContent.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/prism-src/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FetchContent.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-src/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckIncludeFiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckLanguage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckCSourceRuns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Internal/CheckSourceRuns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckCCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckStructHasMember.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-src/cmake/macros.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-src/cmake/sdlchecks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-src/cmake/sdlfind.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-src/cmake/sdlplatform.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-src/cmake/CheckCPUArchitecture.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-src/include/SDL_config.h.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-src/include/SDL_revision.h.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-src/sdl2.pc.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-src/sdl2-config.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-src/SDL2.spec.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-src/cmake_uninstall.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-build/SDL_config.h.intermediate"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/nlohmann_json-src/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/ExternalProject.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/nlohmann_json-src/cmake/pkg-config.pc.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/nlohmann_json-src/cmake/nlohmann_jsonConfigVersion.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/nlohmann_json-src/cmake/config.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/tinyxml2-src/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CTestUseLaunchers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/tinyxml2-src/cmake/tinyxml2.pc.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/tinyxml2-build/tinyxml2.pc.gen"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/spdlog-src/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/spdlog-src/cmake/utils.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/spdlog-src/cmake/ide.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/libzip-src/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckIncludeFiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckTypeSize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckCSourceRuns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckStructHasMember.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/TestBigEndian.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckTypeSize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/libzip-src/cmake/FindNettle.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindGnuTLS.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/libzip-src/cmake/FindMbedTLS.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindOpenSSL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/libzip-src/cmake/Dist.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindBZip2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindLibLZMA.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/libzip-src/cmake/Findzstd.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/libzip-src/libzip.pc.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/libzip-src/cmake-config.h.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/libzip-src/cmake-zipconf.h.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/libzip-src/libzip-config.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/libzip-src/lib/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/ogg-src/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckIncludeFiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CTest.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CTestUseLaunchers.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/ogg-src/cmake/CheckSizes.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckTypeSize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/ogg-src/include/ogg/config_types.h.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/ogg-src/ogg.pc.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/ogg-src/cmake/OggConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CPack.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CPackComponent.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/vorbis-src/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckIncludeFiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"path" : "cmake/modules/FindOgg.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/vorbis-src/vorbis.pc.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/vorbis-src/vorbisenc.pc.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/vorbis-src/vorbisfile.pc.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/vorbis-src/lib/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/vorbis-src/cmake/VorbisConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "libultraship/src/CMakeLists.txt"
+		},
+		{
+			"path" : "libultraship/cmake/cvars.cmake"
+		},
+		{
+			"path" : "libultraship/src/install_config.h.in"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64",
+		"source" : "/var/home/wingdom/workspace/starship-android/Starship"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

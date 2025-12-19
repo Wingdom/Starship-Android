@@ -2,7 +2,9 @@
 #include "ui/ImguiUI.h"
 #include "StringHelper.h"
 
+#if !defined(__ANDROID__)
 #include "extractor/GameExtractor.h"
+#endif
 #include "libultraship/src/Context.h"
 #include "libultraship/src/controller/controldevice/controller/mapping/ControllerDefaultMappings.h"
 #include "resource/type/ResourceType.h"
@@ -82,6 +84,7 @@ GameEngine::GameEngine() {
     if (std::filesystem::exists(main_path)) {
         archiveFiles.push_back(main_path);
     } else {
+#if !defined(__ANDROID__)
         if (ShowYesNoBox("Starship - Asset Extraction", "Please provide a Starfox 64 ROM.\n\nSupported Versions:\nUS 1.0\nUS 1.1\n\nAssets will be extracted into an O2R file.") == IDYES) {
             if(!GenAssetFile()){
                 ShowMessage("Error", "An error occured, no O2R file was generated.\n\nExiting...");
@@ -98,6 +101,11 @@ GameEngine::GameEngine() {
         } else {
             exit(1);
         }
+#else
+        // On Android, O2R file should be copied by MainActivity.java from bundled assets
+        // If not found, just log and continue - will fail later with proper error
+        SPDLOG_ERROR("sf64.o2r not found at: {}", main_path);
+#endif
     }
 
     if (std::filesystem::exists(assets_path)) {
@@ -168,7 +176,16 @@ GameEngine::GameEngine() {
     auto window = std::make_shared<Fast::Fast3dWindow>(std::vector<std::shared_ptr<Ship::GuiWindow>>({}));
 
     auto audioChannelsSetting = Ship::Context::GetInstance()->GetConfig()->GetCurrentAudioChannelsSetting();
+
+#ifdef __ANDROID__
+    // Use larger audio buffers on Android to reduce choppiness
+    // Format: { SampleRate, SampleLength, DesiredBuffered, Channels }
+    // Doubled SampleLength and DesiredBuffered for smoother playback
+    this->context->Init(archiveFiles, {}, 3, { 32000, 2048, 4960, audioChannelsSetting }, window, controlDeck);
+    SPDLOG_INFO("Android: Using larger audio buffers (2048/4960) for smoother playback");
+#else
     this->context->Init(archiveFiles, {}, 3, { 32000, 1024, 1680, audioChannelsSetting }, window, controlDeck);
+#endif
 
 #ifndef __SWITCH__
     Ship::Context::GetInstance()->GetLogger()->set_level(
@@ -263,8 +280,16 @@ GameEngine::GameEngine() {
     prevAltAssets = CVarGetInteger("gEnhancements.Mods.AlternateAssets", 0);
     gEnableGammaBoost = CVarGetInteger("gGraphics.GammaMode", 0) == 0;
     context->GetResourceManager()->SetAltAssetsEnabled(prevAltAssets);
+
+#ifdef __ANDROID__
+    // Enable controller navigation by default on Android so gamepad Back button can open menu
+    CVarSetInteger("gControlNav", 1);
+    CVarSave();
+    SPDLOG_INFO("Android: Controller navigation enabled by default");
+#endif
 }
 
+#if !defined(__ANDROID__)
 bool GameEngine::GenAssetFile(bool exitOnFail) {
     auto extractor = new GameExtractor();
 
@@ -291,6 +316,7 @@ bool GameEngine::GenAssetFile(bool exitOnFail) {
 
     return extractor->GenerateOTR();
 }
+#endif
 
 void GameEngine::Create() {
     const auto instance = Instance = new GameEngine();

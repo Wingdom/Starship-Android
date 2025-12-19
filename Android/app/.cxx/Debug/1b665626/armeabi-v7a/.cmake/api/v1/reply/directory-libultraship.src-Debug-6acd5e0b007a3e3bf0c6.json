@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src",
+		"source" : "libultraship/src"
+	}
+}

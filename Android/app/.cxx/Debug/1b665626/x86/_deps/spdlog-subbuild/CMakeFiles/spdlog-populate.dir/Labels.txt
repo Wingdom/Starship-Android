@@ -1,0 +1,14 @@
+# Target labels
+ spdlog-populate
+# Source files and their labels
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate-complete.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update.rule

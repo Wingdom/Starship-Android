@@ -45,9 +45,18 @@ void SetupGuiElements() {
     mGameMenuBar = std::make_shared<GameMenuBar>("gOpenMenuBar", CVarGetInteger("gOpenMenuBar", 0));
     gui->SetMenuBar(mGameMenuBar);
 
+#ifdef __ANDROID__
+    // Force menu bar to be closed by default on Android
+    if (gui->GetMenuBar()) {
+        gui->GetMenuBar()->SetVisibility(false);
+    }
+#endif
+
     if (gui->GetMenuBar() && !gui->GetMenuBar()->IsVisible()) {
 #if defined(__SWITCH__) || defined(__WIIU__)
         Notification::Emit({ .message = "Press - to access enhancements menu", .remainingTime = 10.0f });
+#elif defined(__ANDROID__)
+        Notification::Emit({ .message = "Press Back/Select to access enhancements menu", .remainingTime = 10.0f });
 #else
         Notification::Emit({ .message = "Press F1 to access enhancements menu", .remainingTime = 10.0f });
 #endif
@@ -319,12 +328,17 @@ void DrawSettingsMenu(){
                         Audio_SetVoiceLanguage(CVarGetInteger("gVoiceLanguage", 0));
                     };
                 } else {
+#if !defined(__ANDROID__)
                     if (UIWidgets::Button("Install JP/EU Audio")) {
                         if (GameEngine::GenAssetFile(false)){
                             GameEngine::ShowMessage("Success", "Audio assets installed. Changes will be applied on the next startup.", SDL_MESSAGEBOX_INFORMATION);
                         }
                         Ship::Context::GetInstance()->GetWindow()->Close();
                     }
+#else
+                    // On Android, additional audio assets should be pre-bundled
+                    ImGui::Text("Additional audio assets should be bundled with the app");
+#endif
                 }
                 ImGui::EndMenu();
             }

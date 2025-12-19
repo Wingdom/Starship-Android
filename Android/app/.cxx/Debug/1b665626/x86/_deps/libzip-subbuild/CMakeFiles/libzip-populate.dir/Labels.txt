@@ -1,0 +1,14 @@
+# Target labels
+ libzip-populate
+# Source files and their labels
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/CMakeFiles/libzip-populate
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/CMakeFiles/libzip-populate.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/CMakeFiles/libzip-populate-complete.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/libzip-populate-prefix/src/libzip-populate-stamp/libzip-populate-build.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/libzip-populate-prefix/src/libzip-populate-stamp/libzip-populate-configure.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/libzip-populate-prefix/src/libzip-populate-stamp/libzip-populate-download.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/libzip-populate-prefix/src/libzip-populate-stamp/libzip-populate-install.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/libzip-populate-prefix/src/libzip-populate-stamp/libzip-populate-mkdir.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/libzip-populate-prefix/src/libzip-populate-stamp/libzip-populate-patch.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/libzip-populate-prefix/src/libzip-populate-stamp/libzip-populate-test.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/libzip-populate-prefix/src/libzip-populate-stamp/libzip-populate-update.rule

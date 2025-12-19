@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/threadpool-subbuild/CMakeFiles/threadpool-populate"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/threadpool-subbuild/CMakeFiles/threadpool-populate.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/threadpool-subbuild/CMakeFiles/threadpool-populate-complete.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/threadpool-subbuild/threadpool-populate-prefix/src/threadpool-populate-stamp/threadpool-populate-build.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/threadpool-subbuild/threadpool-populate-prefix/src/threadpool-populate-stamp/threadpool-populate-configure.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/threadpool-subbuild/threadpool-populate-prefix/src/threadpool-populate-stamp/threadpool-populate-download.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/threadpool-subbuild/threadpool-populate-prefix/src/threadpool-populate-stamp/threadpool-populate-install.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/threadpool-subbuild/threadpool-populate-prefix/src/threadpool-populate-stamp/threadpool-populate-mkdir.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/threadpool-subbuild/threadpool-populate-prefix/src/threadpool-populate-stamp/threadpool-populate-patch.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/threadpool-subbuild/threadpool-populate-prefix/src/threadpool-populate-stamp/threadpool-populate-test.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/threadpool-subbuild/threadpool-populate-prefix/src/threadpool-populate-stamp/threadpool-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"threadpool-populate"
+		],
+		"name" : "threadpool-populate"
+	}
+}

@@ -1,0 +1,1293 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/armeabi-v7a/libzip.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"add_compile_definitions",
+			"include_directories",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 187,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 178,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 103,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 124,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 246,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 259,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 133,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -g -ffast-math -DDEBUG -std=gnu11 -fPIC -fvisibility=hidden"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "AVOID_UB=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "CIMGUI_DEFINE_ENUMS_AND_STRUCTS"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ENABLE_RUMBLE=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "F3DEX_GBI=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "GBI_FLOATS=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "NON_EQUIVALENT=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "NON_MATCHING=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "VERSION_US=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "YAML_CPP_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_LANGUAGE_C"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"define" : "zip_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/sse2neon"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/include/libultraship"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/log"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/debug"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/menu"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/utils"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/utils/binarytools"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/config"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/resource"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/resource/type"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/resource/factory"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/audio"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/window"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/window/gui"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/public"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/public/libultra"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/public/bridge"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/extern"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/extern/tinyxml2"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libultraship/Lib"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libultraship/Lib/libjpeg/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/tools/Torch/src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/tools/Torch"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/tools/Torch/lib"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libultraship/Lib/spdlog/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/graphic/Fast3D/U64/PR"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/graphic"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/dr_libs-src"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-build"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111
+			],
+			"sysroot" : 
+			{
+				"path" : "/var/home/wingdom/Android/ndk/26.0.10792818/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			}
+		}
+	],
+	"id" : "zip::@d48f2cafc5c71de6ba37",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/var/home/wingdom/Android/ndk/26.0.10792818/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/libz.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C",
+		"sysroot" : 
+		{
+			"path" : "/var/home/wingdom/Android/ndk/26.0.10792818/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+		}
+	},
+	"name" : "zip",
+	"nameOnDisk" : "libzip.so",
+	"paths" : 
+	{
+		"build" : "_deps/libzip-build/lib",
+		"source" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				112
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_add.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_add_dir.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_add_entry.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_algorithm_deflate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_buffer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_close.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_delete.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_dir_add.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_dirent.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_discard.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_entry.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_error.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_error_clear.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_error_get.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_error_get_sys_type.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_error_strerror.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_error_to_str.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_extra_field.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_extra_field_api.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_fclose.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_fdopen.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_file_add.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_file_error_clear.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_file_error_get.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_file_get_comment.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_file_get_external_attributes.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_file_get_offset.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_file_rename.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_file_replace.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_file_set_comment.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_file_set_encryption.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_file_set_external_attributes.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_file_set_mtime.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_file_strerror.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_fopen.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_fopen_encrypted.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_fopen_index.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_fopen_index_encrypted.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_fread.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_fseek.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_ftell.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_get_archive_comment.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_get_archive_flag.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_get_encryption_implementation.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_get_file_comment.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_get_name.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_get_num_entries.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_get_num_files.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_hash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_io_util.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_libzip_version.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_memdup.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_name_locate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_new.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_open.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_pkware.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_progress.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_rename.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_replace.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_set_archive_comment.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_set_archive_flag.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_set_default_password.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_set_file_comment.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_set_file_compression.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_set_name.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_accept_empty.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_begin_write.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_begin_write_cloning.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_buffer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_call.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_close.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_commit_write.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_compress.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_crc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_error.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_file_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_file_stdio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_free.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_function.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_get_file_attributes.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_is_deleted.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_layered.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_open.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_pass_to_lower_layer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_pkware_decode.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_pkware_encode.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_read.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_remove.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_rollback_write.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_seek.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_seek_write.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_stat.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_supports.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_tell.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_tell_write.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_window.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_write.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_zip.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_zip_new.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_stat.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_stat_index.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_stat_init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_strerror.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_string.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_unchange.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_unchange_all.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_unchange_archive.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_unchange_data.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_utf-8.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-build/lib/zip_err_str.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_source_file_stdio_named.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 11,
+			"compileGroupIndex" : 0,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-src/lib/zip_random_unix.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/libzip-build/lib/zip_err_str.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

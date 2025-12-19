@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/CMakeFiles/libzip-populate"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/CMakeFiles/libzip-populate.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/CMakeFiles/libzip-populate-complete.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/libzip-populate-prefix/src/libzip-populate-stamp/libzip-populate-build.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/libzip-populate-prefix/src/libzip-populate-stamp/libzip-populate-configure.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/libzip-populate-prefix/src/libzip-populate-stamp/libzip-populate-download.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/libzip-populate-prefix/src/libzip-populate-stamp/libzip-populate-install.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/libzip-populate-prefix/src/libzip-populate-stamp/libzip-populate-mkdir.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/libzip-populate-prefix/src/libzip-populate-stamp/libzip-populate-patch.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/libzip-populate-prefix/src/libzip-populate-stamp/libzip-populate-test.rule"
+		},
+		{
+			"file" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-subbuild/libzip-populate-prefix/src/libzip-populate-stamp/libzip-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libzip-populate"
+		],
+		"name" : "libzip-populate"
+	}
+}

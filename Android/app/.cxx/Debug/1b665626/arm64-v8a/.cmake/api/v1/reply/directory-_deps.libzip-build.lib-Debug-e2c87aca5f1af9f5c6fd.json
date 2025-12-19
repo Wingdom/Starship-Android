@@ -1,0 +1,61 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/libzip-src/lib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 187,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 193,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libzip.so"
+			],
+			"targetId" : "zip::@d48f2cafc5c71de6ba37",
+			"targetIndex" : 21,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/libzip-src/lib/zip.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/libzip-build/lib",
+		"source" : "Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/libzip-src/lib"
+	}
+}

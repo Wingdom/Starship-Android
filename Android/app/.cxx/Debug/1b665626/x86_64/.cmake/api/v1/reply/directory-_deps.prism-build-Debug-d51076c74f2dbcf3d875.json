@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/prism-build",
+		"source" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/prism-src"
+	}
+}

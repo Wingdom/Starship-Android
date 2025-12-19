@@ -1,0 +1,22 @@
+                        -H/var/home/wingdom/workspace/starship-android/Starship
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=24
+-DANDROID_PLATFORM=android-24
+-DANDROID_ABI=arm64-v8a
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DANDROID_NDK=/var/home/wingdom/Android/ndk/26.0.10792818
+-DCMAKE_ANDROID_NDK=/var/home/wingdom/Android/ndk/26.0.10792818
+-DCMAKE_TOOLCHAIN_FILE=/var/home/wingdom/Android/ndk/26.0.10792818/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/var/home/wingdom/Android/cmake/3.31.5/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a
+-DCMAKE_BUILD_TYPE=Debug
+-B/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a
+-GNinja
+-DSDL_SHARED=ON
+-DANDROID_STL=c++_static
+-DHAVE_LD_VERSION_SCRIPT=OFF
+-DUSE_OPENGLES=ON
+                        Build command args: []
+                        Version: 2

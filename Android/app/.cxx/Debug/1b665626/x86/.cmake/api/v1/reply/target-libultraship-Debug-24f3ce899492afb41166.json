@@ -1,0 +1,3110 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/libultraship.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_options",
+			"add_compile_definitions",
+			"include",
+			"target_compile_definitions",
+			"include_directories",
+			"target_include_directories",
+			"set_property",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"libultraship/src/CMakeLists.txt",
+			"CMakeLists.txt",
+			"libultraship/cmake/cvars.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 181,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 185,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 238,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 195,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 196,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 193,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 328,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 103,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 23,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 290,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 242,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 124,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 246,
+				"parent" : 9
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 259,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 167,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 194,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 77,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 84,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 124,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 140,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 162,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -g -ffast-math -DDEBUG -std=gnu++20 -fPIC"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-unused-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-parentheses"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-narrowing"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-missing-field-initializers"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-pthread"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "AVOID_UB=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "CIMGUI_DEFINE_ENUMS_AND_STRUCTS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_AUDIO_CHANNELS_SETTING=\"gAudioChannelsSetting\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_CONSOLE_WINDOW_OPEN=\"gConsoleEnabled\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_CONTROLLER_CONFIGURATION_WINDOW_OPEN=\"gControllerConfigurationEnabled\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_CONTROLLER_DISCONNECTED_WINDOW_OPEN=\"gControllerDisconnectedWindowEnabled\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_CONTROLLER_REORDERING_WINDOW_OPEN=\"gControllerReorderingWindowEnabled\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_ENABLE_MULTI_VIEWPORTS=\"gEnableMultiViewports\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_GAME_OVERLAY_FONT=\"gOverlayFont\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_GFX_DEBUGGER_WINDOW_OPEN=\"gGfxDebuggerEnabled\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_IMGUI_CONTROLLER_NAV=\"gControlNav\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_INTERNAL_RESOLUTION=\"gInternalResolution\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_LOW_RES_MODE=\"gLowResMode\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_MENU_BAR_OPEN=\"gOpenMenuBar\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_MSAA_VALUE=\"gMSAAValue\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_PREFIX_ADVANCED_RESOLUTION=\"gAdvancedResolution\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_PREFIX_CONTROLLERS=\"gControllers\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_SDL_WINDOWED_FULLSCREEN=\"gSdlWindowedFullscreen\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_SIMULATED_INPUT_LAG=\"gSimulatedInputLag\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_STATS_WINDOW_OPEN=\"gStatsEnabled\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_TEXTURE_FILTER=\"gTextureFilter\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_VSYNC_ENABLED=\"gVsyncEnabled\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_Z_FIGHTING_MODE=\"gZFightingMode\""
+				},
+				{
+					"backtrace" : 14,
+					"define" : "ENABLE_OPENGL"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "ENABLE_RUMBLE=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "F3DEX_GBI=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "FMT_SHARED"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "GBI_FLOATS=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "NON_EQUIVALENT=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "NON_MATCHING=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "OFF"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "SPDLOG_ACTIVE_LEVEL=0"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "SPDLOG_COMPILED_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "SPDLOG_SHARED_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "TINYXML2_DEBUG"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "TINYXML2_IMPORT"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "USE_OPENGLES"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "VERSION_US=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "YAML_CPP_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "_LANGUAGE_C"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "_USE_MATH_DEFINES"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 17,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/sse2neon"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/include/libultraship"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/log"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/debug"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/menu"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/utils"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/utils/binarytools"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/config"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/resource"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/resource/type"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/resource/factory"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/audio"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/window"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/window/gui"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/public"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/public/libultra"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/public/bridge"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/extern"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/extern/tinyxml2"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libultraship/Lib"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libultraship/Lib/libjpeg/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/tools/Torch/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/tools/Torch"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/tools/Torch/lib"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libultraship/Lib/spdlog/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/graphic/Fast3D/U64/PR"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/graphic"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/dr_libs-src"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/../extern"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/../include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/imgui-src"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/imgui-src/backends"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/stb"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/threadpool-src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/sdl2-build/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/sdl2-build/include/SDL2"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/sdl2-build/include-config-debug/SDL2"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-src/lib"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-build"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/nlohmann_json-src/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/tinyxml2-src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/spdlog-src/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/prism-src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/prism-src/lib"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/prism-src/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					21
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				3,
+				5,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				57,
+				60,
+				62,
+				64,
+				66,
+				68,
+				70,
+				72,
+				74,
+				76,
+				78,
+				80,
+				82,
+				84,
+				86,
+				88,
+				91,
+				93,
+				95,
+				98,
+				100,
+				102,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				114,
+				116,
+				118,
+				120,
+				122,
+				124,
+				126,
+				128,
+				130,
+				132,
+				134,
+				136,
+				138,
+				141,
+				143,
+				145,
+				147,
+				149,
+				151,
+				154,
+				156,
+				158,
+				160,
+				162,
+				164,
+				167,
+				169,
+				171,
+				173,
+				175,
+				178,
+				180,
+				191,
+				194,
+				196,
+				199,
+				201,
+				203,
+				205,
+				208,
+				210,
+				212,
+				214,
+				216,
+				218,
+				220,
+				222,
+				224,
+				226,
+				228,
+				230,
+				232,
+				234,
+				236,
+				238,
+				240,
+				242,
+				244,
+				246,
+				248,
+				250,
+				252,
+				253,
+				254,
+				258
+			],
+			"sysroot" : 
+			{
+				"path" : "/var/home/wingdom/Android/ndk/26.0.10792818/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			}
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -g -ffast-math -DDEBUG -std=gnu11 -fPIC"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-error"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-unused-variable"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-parentheses"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-narrowing"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-missing-field-initializers"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-implicit-function-declaration"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wno-int-conversion"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-pthread"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 10,
+					"define" : "AVOID_UB=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "CIMGUI_DEFINE_ENUMS_AND_STRUCTS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_AUDIO_CHANNELS_SETTING=\"gAudioChannelsSetting\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_CONSOLE_WINDOW_OPEN=\"gConsoleEnabled\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_CONTROLLER_CONFIGURATION_WINDOW_OPEN=\"gControllerConfigurationEnabled\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_CONTROLLER_DISCONNECTED_WINDOW_OPEN=\"gControllerDisconnectedWindowEnabled\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_CONTROLLER_REORDERING_WINDOW_OPEN=\"gControllerReorderingWindowEnabled\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_ENABLE_MULTI_VIEWPORTS=\"gEnableMultiViewports\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_GAME_OVERLAY_FONT=\"gOverlayFont\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_GFX_DEBUGGER_WINDOW_OPEN=\"gGfxDebuggerEnabled\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_IMGUI_CONTROLLER_NAV=\"gControlNav\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_INTERNAL_RESOLUTION=\"gInternalResolution\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_LOW_RES_MODE=\"gLowResMode\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_MENU_BAR_OPEN=\"gOpenMenuBar\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_MSAA_VALUE=\"gMSAAValue\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_PREFIX_ADVANCED_RESOLUTION=\"gAdvancedResolution\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_PREFIX_CONTROLLERS=\"gControllers\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_SDL_WINDOWED_FULLSCREEN=\"gSdlWindowedFullscreen\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_SIMULATED_INPUT_LAG=\"gSimulatedInputLag\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_STATS_WINDOW_OPEN=\"gStatsEnabled\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_TEXTURE_FILTER=\"gTextureFilter\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_VSYNC_ENABLED=\"gVsyncEnabled\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "CVAR_Z_FIGHTING_MODE=\"gZFightingMode\""
+				},
+				{
+					"backtrace" : 14,
+					"define" : "ENABLE_OPENGL"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "ENABLE_RUMBLE=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "F3DEX_GBI=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "FMT_SHARED"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "GBI_FLOATS=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "NON_EQUIVALENT=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "NON_MATCHING=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "OFF"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "SPDLOG_ACTIVE_LEVEL=0"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "SPDLOG_COMPILED_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "SPDLOG_SHARED_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "TINYXML2_DEBUG"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "TINYXML2_IMPORT"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "USE_OPENGLES"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "VERSION_US=1"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "YAML_CPP_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "_LANGUAGE_C"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "_USE_MATH_DEFINES"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 17,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/sse2neon"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/include/libultraship"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/log"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/debug"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/menu"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/utils"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/utils/binarytools"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/config"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/resource"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/resource/type"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/resource/factory"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/audio"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/window"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/window/gui"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/public"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/public/libultra"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/public/bridge"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/extern"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/extern/tinyxml2"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libultraship/Lib"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libultraship/Lib/libjpeg/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/tools/Torch/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/tools/Torch"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/tools/Torch/lib"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libultraship/Lib/spdlog/include"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/graphic/Fast3D/U64/PR"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/graphic"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/dr_libs-src"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/../extern"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/../include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/imgui-src"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/imgui-src/backends"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/stb"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/threadpool-src/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/sdl2-build/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/sdl2-build/include/SDL2"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/sdl2-build/include-config-debug/SDL2"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-src/lib"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/libzip-build"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/nlohmann_json-src/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/tinyxml2-src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/spdlog-src/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/prism-src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/prism-src/lib"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86/_deps/prism-src/src"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					22
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				188
+			],
+			"sysroot" : 
+			{
+				"path" : "/var/home/wingdom/Android/ndk/26.0.10792818/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "ImGui::@be23ca73ed2ae773184a"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "stb::@be23ca73ed2ae773184a"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "prism::@5d95b222cf25808877ff"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "SDL2::@45bd952f1071c035638d"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "tinyxml2::@bafd953fc568ffa9a669"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "spdlog::@eb35cfce7893ccfeff1e"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "zip::@d48f2cafc5c71de6ba37"
+		}
+	],
+	"id" : "libultraship::@855da6e7a889717685c0",
+	"name" : "libultraship",
+	"nameOnDisk" : "libultraship.a",
+	"paths" : 
+	{
+		"build" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src",
+		"source" : "libultraship/src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		},
+		{
+			"name" : "audio",
+			"sourceIndexes" : 
+			[
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		},
+		{
+			"name" : "controller",
+			"sourceIndexes" : 
+			[
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99
+			]
+		},
+		{
+			"name" : "config",
+			"sourceIndexes" : 
+			[
+				100,
+				101,
+				102,
+				103
+			]
+		},
+		{
+			"name" : "public\\libultra",
+			"sourceIndexes" : 
+			[
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111
+			]
+		},
+		{
+			"name" : "public\\bridge",
+			"sourceIndexes" : 
+			[
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127
+			]
+		},
+		{
+			"name" : "debug",
+			"sourceIndexes" : 
+			[
+				128,
+				129,
+				130,
+				131
+			]
+		},
+		{
+			"name" : "log",
+			"sourceIndexes" : 
+			[
+				132,
+				133
+			]
+		},
+		{
+			"name" : "window",
+			"sourceIndexes" : 
+			[
+				134,
+				135,
+				136,
+				137
+			]
+		},
+		{
+			"name" : "window\\gui",
+			"sourceIndexes" : 
+			[
+				138,
+				139,
+				140,
+				141,
+				142,
+				143,
+				144,
+				145,
+				146,
+				147,
+				148,
+				149,
+				150,
+				151,
+				152,
+				153,
+				154,
+				155,
+				156,
+				157,
+				158,
+				159,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165
+			]
+		},
+		{
+			"name" : "utils",
+			"sourceIndexes" : 
+			[
+				166,
+				167,
+				168,
+				169,
+				170,
+				171,
+				172,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192
+			]
+		},
+		{
+			"name" : "port",
+			"sourceIndexes" : 
+			[
+				193,
+				194
+			]
+		},
+		{
+			"name" : "resource",
+			"sourceIndexes" : 
+			[
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207
+			]
+		},
+		{
+			"name" : "resource\\type",
+			"sourceIndexes" : 
+			[
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223
+			]
+		},
+		{
+			"name" : "resource\\factory",
+			"sourceIndexes" : 
+			[
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239
+			]
+		},
+		{
+			"name" : "resource\\archive",
+			"sourceIndexes" : 
+			[
+				240,
+				241,
+				242,
+				243,
+				244,
+				245,
+				246,
+				247,
+				248,
+				249
+			]
+		},
+		{
+			"name" : "graphic",
+			"sourceIndexes" : 
+			[
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				257,
+				258,
+				259,
+				260
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 23,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/Context.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 23,
+			"path" : "libultraship/src/Context.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 23,
+			"path" : "libultraship/src/install_config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/audio/Audio.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 24,
+			"path" : "libultraship/src/audio/Audio.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/audio/AudioPlayer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 24,
+			"path" : "libultraship/src/audio/AudioPlayer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 24,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/audio/SDLAudioPlayer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 24,
+			"path" : "libultraship/src/audio/SDLAudioPlayer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldeck/ControlDeck.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldeck/ControlDeck.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldeck/ControlPort.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldeck/ControlPort.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/ControlDevice.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/ControlDevice.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/Controller.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/Controller.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/ControllerButton.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/ControllerButton.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/ControllerGyro.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/ControllerGyro.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/ControllerLED.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/ControllerLED.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/ControllerRumble.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/ControllerRumble.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/ControllerStick.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/ControllerStick.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/ControllerAxisDirectionMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/ControllerAxisDirectionMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/ControllerButtonMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/ControllerButtonMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/ControllerDefaultMappings.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/ControllerDefaultMappings.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/ControllerGyroMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/ControllerGyroMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/ControllerInputMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/ControllerInputMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/ControllerLEDMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/ControllerLEDMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/ControllerMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/ControllerMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/ControllerRumbleMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/ControllerRumbleMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/factories/AxisDirectionMappingFactory.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/factories/AxisDirectionMappingFactory.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/factories/ButtonMappingFactory.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/factories/ButtonMappingFactory.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/factories/GyroMappingFactory.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/factories/GyroMappingFactory.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/factories/LEDMappingFactory.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/factories/LEDMappingFactory.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/factories/RumbleMappingFactory.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/factories/RumbleMappingFactory.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/keyboard/KeyboardKeyToAnyMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/keyboard/KeyboardKeyToAnyMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/keyboard/KeyboardKeyToAxisDirectionMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/keyboard/KeyboardKeyToAxisDirectionMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/keyboard/KeyboardKeyToButtonMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/keyboard/KeyboardKeyToButtonMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/keyboard/KeyboardScancodes.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/mouse/MouseButtonToAnyMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/mouse/MouseButtonToAnyMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/mouse/MouseButtonToAxisDirectionMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/mouse/MouseButtonToAxisDirectionMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/mouse/MouseButtonToButtonMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/mouse/MouseButtonToButtonMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/mouse/MouseWheelToAnyMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/mouse/MouseWheelToAnyMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/mouse/MouseWheelToAxisDirectionMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/mouse/MouseWheelToAxisDirectionMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/mouse/MouseWheelToButtonMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/mouse/MouseWheelToButtonMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/mouse/WheelHandler.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/mouse/WheelHandler.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/sdl/SDLAxisDirectionToAnyMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/sdl/SDLAxisDirectionToAnyMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/sdl/SDLAxisDirectionToAxisDirectionMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/sdl/SDLAxisDirectionToAxisDirectionMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/sdl/SDLAxisDirectionToButtonMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/sdl/SDLAxisDirectionToButtonMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/sdl/SDLButtonToAnyMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/sdl/SDLButtonToAnyMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/sdl/SDLButtonToAxisDirectionMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/sdl/SDLButtonToAxisDirectionMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/sdl/SDLButtonToButtonMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/sdl/SDLButtonToButtonMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/sdl/SDLGyroMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/sdl/SDLGyroMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/sdl/SDLLEDMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/sdl/SDLLEDMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/sdl/SDLMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/sdl/SDLRumbleMapping.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/controldevice/controller/mapping/sdl/SDLRumbleMapping.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/physicaldevice/ConnectedPhysicalDeviceManager.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/physicaldevice/ConnectedPhysicalDeviceManager.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/physicaldevice/GlobalSDLDeviceSettings.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/physicaldevice/GlobalSDLDeviceSettings.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/physicaldevice/PhysicalDeviceType.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/controller/physicaldevice/SDLAddRemoveDeviceEventHandler.cpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 25,
+			"path" : "libultraship/src/controller/physicaldevice/SDLAddRemoveDeviceEventHandler.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/config/Config.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 26,
+			"path" : "libultraship/src/config/Config.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 26,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/config/ConsoleVariable.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 26,
+			"path" : "libultraship/src/config/ConsoleVariable.h",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/public/libultra/os.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/public/libultra/os_cache.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/public/libultra/os_eeprom.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/public/libultra/os_mesg.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/public/libultra/os_pi.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/public/libultra/os_time.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/public/libultra/os_vi.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/public/libultra/os_vm.cpp",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/public/bridge/audiobridge.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 27,
+			"path" : "libultraship/src/public/bridge/audiobridge.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/public/bridge/consolevariablebridge.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 27,
+			"path" : "libultraship/src/public/bridge/consolevariablebridge.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/public/bridge/controllerbridge.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 27,
+			"path" : "libultraship/src/public/bridge/controllerbridge.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/public/bridge/crashhandlerbridge.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 27,
+			"path" : "libultraship/src/public/bridge/crashhandlerbridge.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/public/bridge/gfxbridge.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 27,
+			"path" : "libultraship/src/public/bridge/gfxbridge.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/public/bridge/gfxdebuggerbridge.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 27,
+			"path" : "libultraship/src/public/bridge/gfxdebuggerbridge.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/public/bridge/resourcebridge.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 27,
+			"path" : "libultraship/src/public/bridge/resourcebridge.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 27,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/public/bridge/windowbridge.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 27,
+			"path" : "libultraship/src/public/bridge/windowbridge.h",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 28,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/debug/Console.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 28,
+			"path" : "libultraship/src/debug/Console.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 28,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/debug/CrashHandler.cpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 28,
+			"path" : "libultraship/src/debug/CrashHandler.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 29,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/log/luslog.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 29,
+			"path" : "libultraship/src/log/luslog.h",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 30,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/window/FileDropMgr.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 30,
+			"path" : "libultraship/src/window/FileDropMgr.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 30,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/window/Window.cpp",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 30,
+			"path" : "libultraship/src/window/Window.h",
+			"sourceGroupIndex" : 8
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/window/gui/ConsoleWindow.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"path" : "libultraship/src/window/gui/ConsoleWindow.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"path" : "libultraship/src/window/gui/Fonts.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/window/gui/GameOverlay.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"path" : "libultraship/src/window/gui/GameOverlay.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/window/gui/GfxDebuggerWindow.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"path" : "libultraship/src/window/gui/GfxDebuggerWindow.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/window/gui/Gui.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"path" : "libultraship/src/window/gui/Gui.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/window/gui/GuiElement.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"path" : "libultraship/src/window/gui/GuiElement.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/window/gui/GuiMenuBar.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"path" : "libultraship/src/window/gui/GuiMenuBar.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/window/gui/GuiWindow.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"path" : "libultraship/src/window/gui/GuiWindow.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"path" : "libultraship/src/window/gui/IconsFontAwesome4.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/window/gui/InputEditorWindow.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"path" : "libultraship/src/window/gui/InputEditorWindow.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/window/gui/StatsWindow.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"path" : "libultraship/src/window/gui/StatsWindow.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/window/gui/resource/Font.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"path" : "libultraship/src/window/gui/resource/Font.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/window/gui/resource/FontFactory.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"path" : "libultraship/src/window/gui/resource/FontFactory.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/window/gui/resource/GuiTexture.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"path" : "libultraship/src/window/gui/resource/GuiTexture.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/window/gui/resource/GuiTextureFactory.cpp",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 31,
+			"path" : "libultraship/src/window/gui/resource/GuiTextureFactory.h",
+			"sourceGroupIndex" : 9
+		},
+		{
+			"backtrace" : 32,
+			"path" : "libultraship/src/utils/AppleFolderManager.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/utils/StrHash64.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"path" : "libultraship/src/utils/StrHash64.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/utils/StringHelper.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"path" : "libultraship/src/utils/StringHelper.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/utils/Utils.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"path" : "libultraship/src/utils/Utils.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/utils/binarytools/BinaryReader.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"path" : "libultraship/src/utils/binarytools/BinaryReader.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/utils/binarytools/BinaryWriter.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"path" : "libultraship/src/utils/binarytools/BinaryWriter.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"path" : "libultraship/src/utils/binarytools/BitConverter.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/utils/binarytools/MemoryStream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"path" : "libultraship/src/utils/binarytools/MemoryStream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/utils/binarytools/Stream.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"path" : "libultraship/src/utils/binarytools/Stream.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"path" : "libultraship/src/utils/binarytools/endianness.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"path" : "libultraship/src/utils/filesystemtools/Directory.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"path" : "libultraship/src/utils/filesystemtools/DiskFile.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"path" : "libultraship/src/utils/filesystemtools/FileHelper.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"path" : "libultraship/src/utils/filesystemtools/Path.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"path" : "libultraship/src/utils/filesystemtools/PathHelper.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 1,
+			"path" : "libultraship/src/utils/glob.c",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"path" : "libultraship/src/utils/glob.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"path" : "libultraship/src/utils/macUtils.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/utils/stox.cpp",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 32,
+			"path" : "libultraship/src/utils/stox.h",
+			"sourceGroupIndex" : 10
+		},
+		{
+			"backtrace" : 33,
+			"path" : "libultraship/src/port/mobile/MobileImpl.h",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 33,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/port/mobile/MobileImpl.cpp",
+			"sourceGroupIndex" : 11
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/File.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/Resource.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/Resource.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/ResourceFactory.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/ResourceFactoryBinary.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/ResourceFactoryBinary.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/ResourceFactoryXML.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/ResourceFactoryXML.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/ResourceLoader.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/ResourceLoader.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/ResourceManager.cpp",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/ResourceManager.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/ResourceType.h",
+			"sourceGroupIndex" : 12
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/type/Blob.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/type/Blob.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/type/DisplayList.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/type/DisplayList.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/type/Json.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/type/Json.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/type/Light.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/type/Light.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/type/Matrix.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/type/Matrix.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/type/Shader.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/type/Shader.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/type/Texture.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/type/Texture.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/type/Vertex.cpp",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/type/Vertex.h",
+			"sourceGroupIndex" : 13
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/factory/BlobFactory.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/factory/BlobFactory.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/factory/DisplayListFactory.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/factory/DisplayListFactory.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/factory/JsonFactory.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/factory/JsonFactory.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/factory/LightFactory.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/factory/LightFactory.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/factory/MatrixFactory.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/factory/MatrixFactory.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/factory/ShaderFactory.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/factory/ShaderFactory.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/factory/TextureFactory.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/factory/TextureFactory.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/factory/VertexFactory.cpp",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/factory/VertexFactory.h",
+			"sourceGroupIndex" : 14
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/archive/Archive.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/archive/Archive.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/archive/ArchiveManager.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/archive/ArchiveManager.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/archive/FolderArchive.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/archive/FolderArchive.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/archive/O2rArchive.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/archive/O2rArchive.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/resource/archive/OtrArchive.cpp",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 34,
+			"path" : "libultraship/src/resource/archive/OtrArchive.h",
+			"sourceGroupIndex" : 15
+		},
+		{
+			"backtrace" : 35,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/graphic/Fast3D/Fast3dWindow.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 35,
+			"path" : "libultraship/src/graphic/Fast3D/Fast3dWindow.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 35,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/graphic/Fast3D/backends/gfx_opengl.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 35,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/graphic/Fast3D/backends/gfx_sdl2.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 35,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/graphic/Fast3D/debug/GfxDebugger.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 35,
+			"path" : "libultraship/src/graphic/Fast3D/debug/GfxDebugger.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 35,
+			"path" : "libultraship/src/graphic/Fast3D/f3dex.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 35,
+			"path" : "libultraship/src/graphic/Fast3D/f3dex2.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 35,
+			"compileGroupIndex" : 0,
+			"path" : "libultraship/src/graphic/Fast3D/interpreter.cpp",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 35,
+			"path" : "libultraship/src/graphic/Fast3D/interpreter.h",
+			"sourceGroupIndex" : 16
+		},
+		{
+			"backtrace" : 35,
+			"path" : "libultraship/src/graphic/Fast3D/lus_gbi.h",
+			"sourceGroupIndex" : 16
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

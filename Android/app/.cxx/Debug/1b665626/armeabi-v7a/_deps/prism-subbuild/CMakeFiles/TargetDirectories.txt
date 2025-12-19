@@ -1,0 +1,3 @@
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/prism-subbuild/CMakeFiles/prism-populate.dir
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/prism-subbuild/CMakeFiles/edit_cache.dir
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/prism-subbuild/CMakeFiles/rebuild_cache.dir

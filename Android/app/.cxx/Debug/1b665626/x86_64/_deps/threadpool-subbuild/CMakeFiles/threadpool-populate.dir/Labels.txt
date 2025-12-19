@@ -1,0 +1,14 @@
+# Target labels
+ threadpool-populate
+# Source files and their labels
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/threadpool-subbuild/CMakeFiles/threadpool-populate
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/threadpool-subbuild/CMakeFiles/threadpool-populate.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/threadpool-subbuild/CMakeFiles/threadpool-populate-complete.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/threadpool-subbuild/threadpool-populate-prefix/src/threadpool-populate-stamp/threadpool-populate-build.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/threadpool-subbuild/threadpool-populate-prefix/src/threadpool-populate-stamp/threadpool-populate-configure.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/threadpool-subbuild/threadpool-populate-prefix/src/threadpool-populate-stamp/threadpool-populate-download.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/threadpool-subbuild/threadpool-populate-prefix/src/threadpool-populate-stamp/threadpool-populate-install.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/threadpool-subbuild/threadpool-populate-prefix/src/threadpool-populate-stamp/threadpool-populate-mkdir.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/threadpool-subbuild/threadpool-populate-prefix/src/threadpool-populate-stamp/threadpool-populate-patch.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/threadpool-subbuild/threadpool-populate-prefix/src/threadpool-populate-stamp/threadpool-populate-test.rule
+/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/threadpool-subbuild/threadpool-populate-prefix/src/threadpool-populate-stamp/threadpool-populate-update.rule

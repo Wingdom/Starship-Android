@@ -1,0 +1,2798 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libStarship.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_options",
+			"target_link_libraries",
+			"include",
+			"set_property",
+			"find_package",
+			"add_dependencies",
+			"target_compile_options",
+			"add_compile_definitions",
+			"target_compile_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"libultraship/src/CMakeLists.txt",
+			"libultraship/cmake/dependencies/android.cmake",
+			"libultraship/CMakeLists.txt",
+			"/var/home/wingdom/Android/cmake/3.31.5/share/cmake-3.31/Modules/FindThreads.cmake",
+			"Android/app/.cxx/Debug/1b665626/x86_64/_deps/spdlog-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 649,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 299,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 436,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 181,
+				"parent" : 5
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 38,
+				"parent" : 7
+			},
+			{
+				"file" : 2,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 16,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 185,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 193,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 195,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 231,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 238,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 196,
+				"parent" : 5
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 144,
+				"parent" : 17
+			},
+			{
+				"file" : 4,
+				"parent" : 18
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 238,
+				"parent" : 19
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 232,
+				"parent" : 17
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 298,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 628,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 103,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 344,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 39,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 124,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 246,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 259,
+				"parent" : 0
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 305,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -g -ffast-math -DDEBUG -std=gnu11 -fPIC"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wno-error"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wno-unused-variable"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wno-missing-field-initializers"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wno-parentheses"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wno-narrowing"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wno-missing-braces"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wno-int-conversion"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Werror-implicit-function-declaration"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wno-incompatible-pointer-types"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-fpermissive"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-pthread"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 24,
+					"define" : "AVOID_UB=1"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "CIMGUI_DEFINE_ENUMS_AND_STRUCTS"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "ENABLE_RUMBLE=1"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "F3DEX_GBI=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "FMT_SHARED"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "GBI_FLOATS=1"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "NON_EQUIVALENT=1"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "NON_MATCHING=1"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "SPDLOG_ACTIVE_LEVEL=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "SPDLOG_COMPILED_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "SPDLOG_SHARED_LIB"
+				},
+				{
+					"define" : "Starship_EXPORTS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "TINYXML2_DEBUG"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "TINYXML2_IMPORT"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "VERSION_US=1"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "YAML_CPP_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "_CONSOLE"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "_LANGUAGE_C"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "_USE_MATH_DEFINES"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 27,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/include"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/src"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/sse2neon"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/include/libultraship"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/log"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/debug"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/menu"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/utils"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/utils/binarytools"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/config"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/resource"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/resource/type"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/resource/factory"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/audio"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/window"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/window/gui"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/public"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/public/libultra"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/public/bridge"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/extern"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/extern/tinyxml2"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libultraship/Lib"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libultraship/Lib/libjpeg/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/tools/Torch/src"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/tools/Torch"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/tools/Torch/lib"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libultraship/Lib/spdlog/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/graphic/Fast3D/U64/PR"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/graphic"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/dr_libs-src"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/libzip-src/lib"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/libzip-build"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/../include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/imgui-src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/imgui-src/backends"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/stb"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/threadpool-src/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-build/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-build/include/SDL2"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-build/include-config-debug/SDL2"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/nlohmann_json-src/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/tinyxml2-src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/spdlog-src/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/prism-src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/prism-src/lib"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/prism-src/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/ogg-src/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/ogg-build/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/vorbis-src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				92,
+				108,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216
+			],
+			"sysroot" : 
+			{
+				"path" : "/var/home/wingdom/Android/ndk/26.0.10792818/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			}
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -g -ffast-math -DDEBUG -std=gnu++20 -fPIC"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wno-error"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wno-unused-variable"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wno-missing-field-initializers"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wno-parentheses"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wno-narrowing"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wno-missing-braces"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wno-int-conversion"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-fpermissive"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wno-deprecated-enum-enum-conversion"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-pthread"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 24,
+					"define" : "AVOID_UB=1"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "CIMGUI_DEFINE_ENUMS_AND_STRUCTS"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "ENABLE_RUMBLE=1"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "F3DEX_GBI=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "FMT_SHARED"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "GBI_FLOATS=1"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "NON_EQUIVALENT=1"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "NON_MATCHING=1"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "SPDLOG_ACTIVE_LEVEL=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "SPDLOG_COMPILED_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "SPDLOG_SHARED_LIB"
+				},
+				{
+					"define" : "Starship_EXPORTS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "TINYXML2_DEBUG"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "TINYXML2_IMPORT"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "VERSION_US=1"
+				},
+				{
+					"backtrace" : 26,
+					"define" : "YAML_CPP_STATIC_DEFINE"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "_CONSOLE"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "_DEBUG"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "_LANGUAGE_C"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 24,
+					"define" : "_USE_MATH_DEFINES"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 27,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/include"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/src"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/sse2neon"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/include/libultraship"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/log"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/debug"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/menu"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/utils"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/utils/binarytools"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/config"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/resource"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/resource/type"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/resource/factory"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/audio"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/window"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/window/gui"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/public"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/public/libultra"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/public/bridge"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/extern"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/extern/tinyxml2"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libultraship/Lib"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libultraship/Lib/libjpeg/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/tools/Torch/src"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/tools/Torch"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/tools/Torch/lib"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libultraship/Lib/spdlog/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/graphic/Fast3D/U64/PR"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/graphic"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/dr_libs-src"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/libzip-src/lib"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/libzip-build"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/../include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/imgui-src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/imgui-src/backends"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/stb"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/threadpool-src/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-build/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-build/include/SDL2"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-build/include-config-debug/SDL2"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/nlohmann_json-src/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/tinyxml2-src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/spdlog-src/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/prism-src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/prism-src/lib"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/prism-src/src"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/ogg-src/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/ogg-build/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/vorbis-src/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				93,
+				95,
+				96,
+				100,
+				106,
+				110,
+				112,
+				114,
+				116,
+				118,
+				120,
+				122,
+				124,
+				126,
+				128,
+				130,
+				133,
+				135,
+				137,
+				139,
+				141,
+				143,
+				145,
+				147,
+				149,
+				151,
+				153,
+				155,
+				157,
+				159,
+				161,
+				163,
+				165,
+				167,
+				169,
+				171,
+				173,
+				175,
+				178,
+				180,
+				182,
+				184,
+				186,
+				188,
+				191,
+				193,
+				195,
+				197,
+				199,
+				201,
+				203,
+				205,
+				207
+			],
+			"sysroot" : 
+			{
+				"path" : "/var/home/wingdom/Android/ndk/26.0.10792818/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "ImGui::@be23ca73ed2ae773184a"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "stb::@be23ca73ed2ae773184a"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "prism::@5d95b222cf25808877ff"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "SDL2::@45bd952f1071c035638d"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "tinyxml2::@bafd953fc568ffa9a669"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "spdlog::@eb35cfce7893ccfeff1e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "zip::@d48f2cafc5c71de6ba37"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "ogg::@4e5ed7d02827854e35f8"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "vorbis::@692b0ee2b61df6760d20"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "vorbisenc::@692b0ee2b61df6760d20"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "vorbisfile::@692b0ee2b61df6760d20"
+		},
+		{
+			"backtrace" : 22,
+			"id" : "libultraship::@855da6e7a889717685c0"
+		}
+	],
+	"id" : "Starship::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-pthread",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,-export-dynamic",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/libultraship.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libvorbisenc.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libvorbisfile.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libImGui.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libSDL2.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libstb.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libzip.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libtinyxml2.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lGLESv3",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "_deps/prism-build/libprism.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libspdlogd.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "-pthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libvorbis.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libogg.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/var/home/wingdom/Android/ndk/26.0.10792818/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+		}
+	},
+	"name" : "Starship",
+	"nameOnDisk" : "libStarship.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				92,
+				93,
+				95,
+				96,
+				100,
+				106,
+				108,
+				110,
+				112,
+				114,
+				116,
+				118,
+				120,
+				122,
+				124,
+				126,
+				128,
+				130,
+				133,
+				135,
+				137,
+				139,
+				141,
+				143,
+				145,
+				147,
+				149,
+				151,
+				153,
+				155,
+				157,
+				159,
+				161,
+				163,
+				165,
+				167,
+				169,
+				171,
+				173,
+				175,
+				178,
+				180,
+				182,
+				184,
+				186,
+				188,
+				191,
+				193,
+				195,
+				197,
+				199,
+				201,
+				203,
+				205,
+				207,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				11,
+				91,
+				94,
+				97,
+				98,
+				99,
+				101,
+				102,
+				103,
+				104,
+				105,
+				107,
+				109,
+				111,
+				113,
+				115,
+				117,
+				119,
+				121,
+				123,
+				125,
+				127,
+				129,
+				131,
+				132,
+				134,
+				136,
+				138,
+				140,
+				142,
+				144,
+				146,
+				148,
+				150,
+				152,
+				154,
+				156,
+				158,
+				160,
+				162,
+				164,
+				166,
+				168,
+				170,
+				172,
+				174,
+				176,
+				177,
+				179,
+				181,
+				183,
+				185,
+				187,
+				189,
+				190,
+				192,
+				194,
+				196,
+				198,
+				200,
+				202,
+				204,
+				206,
+				208
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "Resource.rc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/audio/audio_context.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/audio/audio_effects.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/audio/audio_general.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/audio/audio_heap.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/audio/audio_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/audio/audio_playback.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/audio/audio_seqplayer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/audio/audio_synthesis.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/audio/audio_thread.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/audio/mixer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/audio/mixer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/audio/note_data.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/audio/wave_samples.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/buffers.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/dmatable.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_360.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_beam.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_bg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_blur.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_boss.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_col1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_col2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_context.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_demo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_display.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_edata.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_edisplay.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_effect.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_enmy.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_enmy2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_fade.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_game.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_hud.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_load.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_message.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_msg_palette.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_pause.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_play.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_radio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_rcp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_rcp_init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_reset.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_save.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_shapes.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_std_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_tank.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_versus.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/fox_wheels.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/guPerspectiveF.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/engine/lookat.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/libc_math64.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/libc_sprintf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/libultra/gu/mtxutil.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/libultra/gu/ortho.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/libultra/gu/sqrtf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/libultra/io/aisetfreq.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_ending/fox_end1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_ending/fox_end2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i1/fox_co.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i1/fox_i1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i1/fox_tr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i1/fox_tr360.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i1/fox_ve1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i2/fox_i2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i2/fox_me.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i2/fox_sx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i3/fox_a6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i3/fox_aq.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i3/fox_i3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i3/fox_so.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i3/fox_zo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i4/fox_bo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i4/fox_fo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i4/fox_i4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i4/fox_ka.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i4/fox_sz.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i5/fox_ground.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i5/fox_i5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i5/fox_ma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i5/fox_ti.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i5/fox_ti_cs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i6/fox_andross.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i6/fox_i6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i6/fox_sy.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i6/fox_turret.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_i6/fox_ve2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_menu/fox_i_menu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_menu/fox_map.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_menu/fox_option.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_menu/fox_title.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/overlays/ovl_menu/fox_title.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/overlays/ovl_unused/fox_unused.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/Engine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/Engine.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/GBIMiddleware.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/Game.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/audio/GameAudio.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/extractor/GameExtractor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/hooks/Events.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/hooks/impl/EventSystem.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/hooks/impl/EventSystem.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/hooks/list/ActionEvent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/hooks/list/ActorEvent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/hooks/list/EngineEvent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/hooks/list/ItemEvent.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/interpolation/FrameInterpolation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/interpolation/FrameInterpolation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/port/mods/PortEnhancements.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/mods/PortEnhancements.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/notification/notification.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/notification/notification.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/patches/DisplayListPatch.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/patches/DisplayListPatch.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/AnimFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/AnimFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/ColPolyFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/ColPolyFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/EnvSettingsFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/EnvSettingsFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/GenericArrayFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/GenericArrayFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/HitboxFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/HitboxFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/LimbFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/LimbFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/MessageFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/MessageFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/MessageLookupFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/MessageLookupFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/ObjectInitFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/ObjectInitFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/ResourceUtil.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/ScriptCommandFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/ScriptCommandFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/ScriptFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/ScriptFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/SkeletonFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/SkeletonFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/Vec3fFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/Vec3fFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/Vec3sFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/Vec3sFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/audio/AudioTableFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/audio/AudioTableFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/audio/BookFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/audio/BookFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/audio/DrumFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/audio/DrumFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/audio/EnvelopeFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/audio/EnvelopeFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/audio/InstrumentFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/audio/InstrumentFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/audio/LoopFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/audio/LoopFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/audio/SampleFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/audio/SampleFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/importers/audio/SoundFontFactory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/importers/audio/SoundFontFactory.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/loaders/AudioLoader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/loaders/AudioLoader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/type/Animation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/Animation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/type/ColPoly.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/ColPoly.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/type/EnvSettings.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/EnvSettings.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/type/GenericArray.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/GenericArray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/type/Hitbox.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/Hitbox.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/type/Limb.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/Limb.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/type/Message.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/Message.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/type/ObjectInit.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/ObjectInit.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/ResourceType.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/type/Script.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/Script.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/type/Skeleton.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/Skeleton.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/type/Vec3fArray.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/Vec3fArray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/type/Vec3sArray.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/Vec3sArray.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/type/audio/AdpcmBook.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/audio/AdpcmBook.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/type/audio/AdpcmLoop.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/audio/AdpcmLoop.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/audio/AudioContext.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/type/audio/AudioTable.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/audio/AudioTable.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/type/audio/Drum.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/audio/Drum.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/type/audio/Envelope.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/audio/Envelope.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/type/audio/Instrument.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/audio/Instrument.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/type/audio/Sample.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/audio/Sample.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/resource/type/audio/SoundFont.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/resource/type/audio/SoundFont.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/ui/ImguiUI.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/ui/ImguiUI.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/ui/ResolutionEditor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/ui/ResolutionEditor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/port/ui/UIWidgets.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/port/ui/UIWidgets.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sys/sys_joybus.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sys/sys_lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sys/sys_lights.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sys/sys_main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sys/sys_math.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sys/sys_matrix.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sys/sys_memory.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/sys/sys_save.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

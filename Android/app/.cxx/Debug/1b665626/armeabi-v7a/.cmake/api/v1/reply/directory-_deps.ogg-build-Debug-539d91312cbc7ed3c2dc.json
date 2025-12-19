@@ -1,0 +1,160 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 122,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 135,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 158,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 181,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/armeabi-v7a/libogg.so"
+			],
+			"targetId" : "ogg::@4e5ed7d02827854e35f8",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/ogg",
+			"paths" : 
+			[
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-build/include/ogg/config_types.h",
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-src/include/ogg/ogg.h",
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-src/include/ogg/os_types.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Ogg",
+			"exportName" : "OggTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "ogg::@4e5ed7d02827854e35f8",
+					"index" : 9
+				}
+			],
+			"paths" : 
+			[
+				"_deps/ogg-build/CMakeFiles/Export/dee6fd410a50d06b294b496f57355584/OggTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Ogg",
+			"paths" : 
+			[
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-build/OggConfig.cmake",
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-build/OggConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-build/ogg.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libogg/html",
+			"paths" : 
+			[
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-src/doc/framing.html",
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-src/doc/index.html",
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-src/doc/oggstream.html",
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-src/doc/ogg-multiplex.html",
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-src/doc/fish_xiph_org.png",
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-src/doc/multiplex1.png",
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-src/doc/packets.png",
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-src/doc/pages.png",
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-src/doc/stream.png",
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-src/doc/vorbisword2.png",
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-src/doc/white-ogg.png",
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-src/doc/white-xifish.png",
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-src/doc/rfc3533.txt",
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-src/doc/rfc5334.txt",
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-src/doc/skeleton.html"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "share/doc/libogg/html",
+			"paths" : 
+			[
+				"Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-src/doc/libogg"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/ogg-build",
+		"source" : "Android/app/.cxx/Debug/1b665626/armeabi-v7a/_deps/ogg-src"
+	}
+}

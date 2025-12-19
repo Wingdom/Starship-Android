@@ -1,0 +1,186 @@
+{
+  "buildFiles": [
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/libzip-src/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/libzip-src/lib/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/nlohmann_json-src/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/ogg-src/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/prism-src/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-src/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/spdlog-src/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/tinyxml2-src/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/vorbis-src/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/vorbis-src/lib/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-src/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/cmake/modules/FindOgg.cmake",
+    "/var/home/wingdom/workspace/starship-android/Starship/libultraship/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/libultraship/cmake/Utils.cmake",
+    "/var/home/wingdom/workspace/starship-android/Starship/libultraship/cmake/cvars.cmake",
+    "/var/home/wingdom/workspace/starship-android/Starship/libultraship/cmake/dependencies/android.cmake",
+    "/var/home/wingdom/workspace/starship-android/Starship/libultraship/cmake/dependencies/common.cmake",
+    "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/var/home/wingdom/Android/cmake/3.31.5/bin/ninja",
+      "-C",
+      "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/var/home/wingdom/Android/cmake/3.31.5/bin/ninja",
+    "-C",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "ImGui::@be23ca73ed2ae773184a": {
+      "artifactName": "ImGui",
+      "abi": "x86_64",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libImGui.a",
+      "runtimeFiles": []
+    },
+    "zip::@d48f2cafc5c71de6ba37": {
+      "artifactName": "zip",
+      "abi": "x86_64",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libzip.so",
+      "runtimeFiles": []
+    },
+    "SDL2main::@45bd952f1071c035638d": {
+      "artifactName": "SDL2main",
+      "abi": "x86_64",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-build/libSDL2main.a",
+      "runtimeFiles": []
+    },
+    "libultraship::@855da6e7a889717685c0": {
+      "artifactName": "libultraship",
+      "abi": "x86_64",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/libultraship.a",
+      "runtimeFiles": []
+    },
+    "Starship::@6890427a1f51a3e7e1df": {
+      "artifactName": "Starship",
+      "abi": "x86_64",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libStarship.so",
+      "runtimeFiles": [
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libvorbisenc.so",
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libvorbisfile.so",
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libSDL2.so",
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libzip.so",
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libtinyxml2.so",
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libspdlogd.so",
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libvorbis.so",
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libogg.so"
+      ]
+    },
+    "dist::@10040c7b4328ec4c6bd9": {
+      "artifactName": "dist",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "tinyxml2::@bafd953fc568ffa9a669": {
+      "artifactName": "tinyxml2",
+      "abi": "x86_64",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libtinyxml2.so",
+      "runtimeFiles": []
+    },
+    "vorbis::@692b0ee2b61df6760d20": {
+      "artifactName": "vorbis",
+      "abi": "x86_64",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libvorbis.so",
+      "runtimeFiles": [
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libogg.so"
+      ]
+    },
+    "SDL2::@45bd952f1071c035638d": {
+      "artifactName": "SDL2",
+      "abi": "x86_64",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libSDL2.so",
+      "runtimeFiles": []
+    },
+    "SDL2-static::@45bd952f1071c035638d": {
+      "artifactName": "SDL2-static",
+      "abi": "x86_64",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-build/libSDL2.a",
+      "runtimeFiles": []
+    },
+    "SDL2_test::@45bd952f1071c035638d": {
+      "artifactName": "SDL2_test",
+      "abi": "x86_64",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/sdl2-build/libSDL2_test.a",
+      "runtimeFiles": []
+    },
+    "spdlog::@eb35cfce7893ccfeff1e": {
+      "artifactName": "spdlog",
+      "abi": "x86_64",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libspdlogd.so",
+      "runtimeFiles": []
+    },
+    "distcheck::@10040c7b4328ec4c6bd9": {
+      "artifactName": "distcheck",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "sdl_headers_copy::@45bd952f1071c035638d": {
+      "artifactName": "sdl_headers_copy",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "yaml-cpp::@c1fb6b535d5396bcd0b2": {
+      "artifactName": "yaml-cpp",
+      "abi": "x86_64",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/yaml-cpp-build/libyaml-cppd.a",
+      "runtimeFiles": []
+    },
+    "vorbisenc::@692b0ee2b61df6760d20": {
+      "artifactName": "vorbisenc",
+      "abi": "x86_64",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libvorbisenc.so",
+      "runtimeFiles": [
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libvorbis.so",
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libogg.so"
+      ]
+    },
+    "uninstall::@45bd952f1071c035638d": {
+      "artifactName": "uninstall",
+      "abi": "x86_64",
+      "runtimeFiles": []
+    },
+    "ogg::@4e5ed7d02827854e35f8": {
+      "artifactName": "ogg",
+      "abi": "x86_64",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libogg.so",
+      "runtimeFiles": []
+    },
+    "xmltest::@bafd953fc568ffa9a669": {
+      "artifactName": "xmltest",
+      "abi": "x86_64",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/xmltest",
+      "runtimeFiles": [
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libtinyxml2.so"
+      ]
+    },
+    "vorbisfile::@692b0ee2b61df6760d20": {
+      "artifactName": "vorbisfile",
+      "abi": "x86_64",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libvorbisfile.so",
+      "runtimeFiles": [
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libvorbis.so",
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/x86_64/libogg.so"
+      ]
+    },
+    "prism::@5d95b222cf25808877ff": {
+      "artifactName": "prism",
+      "abi": "x86_64",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/x86_64/_deps/prism-build/libprism.a",
+      "runtimeFiles": []
+    },
+    "stb::@be23ca73ed2ae773184a": {
+      "artifactName": "stb",
+      "abi": "x86_64",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libstb.a",
+      "runtimeFiles": []
+    }
+  }
+}

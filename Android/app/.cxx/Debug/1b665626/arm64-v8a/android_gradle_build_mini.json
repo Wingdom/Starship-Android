@@ -1,0 +1,186 @@
+{
+  "buildFiles": [
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/libzip-src/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/libzip-src/lib/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/nlohmann_json-src/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/ogg-src/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/prism-src/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/sdl2-src/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/spdlog-src/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/tinyxml2-src/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/vorbis-src/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/vorbis-src/lib/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/yaml-cpp-src/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/cmake/modules/FindOgg.cmake",
+    "/var/home/wingdom/workspace/starship-android/Starship/libultraship/CMakeLists.txt",
+    "/var/home/wingdom/workspace/starship-android/Starship/libultraship/cmake/Utils.cmake",
+    "/var/home/wingdom/workspace/starship-android/Starship/libultraship/cmake/cvars.cmake",
+    "/var/home/wingdom/workspace/starship-android/Starship/libultraship/cmake/dependencies/android.cmake",
+    "/var/home/wingdom/workspace/starship-android/Starship/libultraship/cmake/dependencies/common.cmake",
+    "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/var/home/wingdom/Android/cmake/3.31.5/bin/ninja",
+      "-C",
+      "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/var/home/wingdom/Android/cmake/3.31.5/bin/ninja",
+    "-C",
+    "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "ImGui::@be23ca73ed2ae773184a": {
+      "artifactName": "ImGui",
+      "abi": "arm64-v8a",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libImGui.a",
+      "runtimeFiles": []
+    },
+    "zip::@d48f2cafc5c71de6ba37": {
+      "artifactName": "zip",
+      "abi": "arm64-v8a",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libzip.so",
+      "runtimeFiles": []
+    },
+    "SDL2main::@45bd952f1071c035638d": {
+      "artifactName": "SDL2main",
+      "abi": "arm64-v8a",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/sdl2-build/libSDL2main.a",
+      "runtimeFiles": []
+    },
+    "libultraship::@855da6e7a889717685c0": {
+      "artifactName": "libultraship",
+      "abi": "arm64-v8a",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/libultraship/src/libultraship.a",
+      "runtimeFiles": []
+    },
+    "Starship::@6890427a1f51a3e7e1df": {
+      "artifactName": "Starship",
+      "abi": "arm64-v8a",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libStarship.so",
+      "runtimeFiles": [
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libvorbisenc.so",
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libvorbisfile.so",
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libSDL2.so",
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libzip.so",
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libtinyxml2.so",
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libspdlogd.so",
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libvorbis.so",
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libogg.so"
+      ]
+    },
+    "dist::@10040c7b4328ec4c6bd9": {
+      "artifactName": "dist",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "tinyxml2::@bafd953fc568ffa9a669": {
+      "artifactName": "tinyxml2",
+      "abi": "arm64-v8a",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libtinyxml2.so",
+      "runtimeFiles": []
+    },
+    "vorbis::@692b0ee2b61df6760d20": {
+      "artifactName": "vorbis",
+      "abi": "arm64-v8a",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libvorbis.so",
+      "runtimeFiles": [
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libogg.so"
+      ]
+    },
+    "SDL2::@45bd952f1071c035638d": {
+      "artifactName": "SDL2",
+      "abi": "arm64-v8a",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libSDL2.so",
+      "runtimeFiles": []
+    },
+    "SDL2-static::@45bd952f1071c035638d": {
+      "artifactName": "SDL2-static",
+      "abi": "arm64-v8a",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/sdl2-build/libSDL2.a",
+      "runtimeFiles": []
+    },
+    "SDL2_test::@45bd952f1071c035638d": {
+      "artifactName": "SDL2_test",
+      "abi": "arm64-v8a",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/sdl2-build/libSDL2_test.a",
+      "runtimeFiles": []
+    },
+    "spdlog::@eb35cfce7893ccfeff1e": {
+      "artifactName": "spdlog",
+      "abi": "arm64-v8a",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libspdlogd.so",
+      "runtimeFiles": []
+    },
+    "distcheck::@10040c7b4328ec4c6bd9": {
+      "artifactName": "distcheck",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "sdl_headers_copy::@45bd952f1071c035638d": {
+      "artifactName": "sdl_headers_copy",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "yaml-cpp::@c1fb6b535d5396bcd0b2": {
+      "artifactName": "yaml-cpp",
+      "abi": "arm64-v8a",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libyaml-cppd.so",
+      "runtimeFiles": []
+    },
+    "vorbisenc::@692b0ee2b61df6760d20": {
+      "artifactName": "vorbisenc",
+      "abi": "arm64-v8a",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libvorbisenc.so",
+      "runtimeFiles": [
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libvorbis.so",
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libogg.so"
+      ]
+    },
+    "uninstall::@45bd952f1071c035638d": {
+      "artifactName": "uninstall",
+      "abi": "arm64-v8a",
+      "runtimeFiles": []
+    },
+    "ogg::@4e5ed7d02827854e35f8": {
+      "artifactName": "ogg",
+      "abi": "arm64-v8a",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libogg.so",
+      "runtimeFiles": []
+    },
+    "xmltest::@bafd953fc568ffa9a669": {
+      "artifactName": "xmltest",
+      "abi": "arm64-v8a",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/xmltest",
+      "runtimeFiles": [
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libtinyxml2.so"
+      ]
+    },
+    "vorbisfile::@692b0ee2b61df6760d20": {
+      "artifactName": "vorbisfile",
+      "abi": "arm64-v8a",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libvorbisfile.so",
+      "runtimeFiles": [
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libvorbis.so",
+        "/var/home/wingdom/workspace/starship-android/Starship/Android/app/build/intermediates/cxx/Debug/1b665626/obj/arm64-v8a/libogg.so"
+      ]
+    },
+    "prism::@5d95b222cf25808877ff": {
+      "artifactName": "prism",
+      "abi": "arm64-v8a",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/Android/app/.cxx/Debug/1b665626/arm64-v8a/_deps/prism-build/libprism.a",
+      "runtimeFiles": []
+    },
+    "stb::@be23ca73ed2ae773184a": {
+      "artifactName": "stb",
+      "abi": "arm64-v8a",
+      "output": "/var/home/wingdom/workspace/starship-android/Starship/libultraship/libstb.a",
+      "runtimeFiles": []
+    }
+  }
+}

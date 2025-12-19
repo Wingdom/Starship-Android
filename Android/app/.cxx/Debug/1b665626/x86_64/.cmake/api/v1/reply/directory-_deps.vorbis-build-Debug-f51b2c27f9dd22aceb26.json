@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"Android/app/.cxx/Debug/1b665626/x86_64/_deps/vorbis-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"Android/app/.cxx/Debug/1b665626/x86_64/_deps/vorbis-build/vorbis.pc",
+				"Android/app/.cxx/Debug/1b665626/x86_64/_deps/vorbis-build/vorbisenc.pc",
+				"Android/app/.cxx/Debug/1b665626/x86_64/_deps/vorbis-build/vorbisfile.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/vorbis-build",
+		"source" : "Android/app/.cxx/Debug/1b665626/x86_64/_deps/vorbis-src"
+	}
+}
